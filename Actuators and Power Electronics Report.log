@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=latex 2022.4.3)  3 APR 2022 13:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.4.3)  3 APR 2022 14:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -23,7 +23,7 @@ LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 5
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 -- Using 8.5in x 11in (letter) paper.
--- Using DVI output.
+-- Using PDF output.
 \@IEEEnormalsizeunitybaselineskip=\dimen141
 -- This is a 10 point document.
 \CLASSINFOnormalsizebaselineskip=\dimen142
@@ -219,10 +219,10 @@ Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
 fg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: dvips.def on input line 107.
+Package graphics Info: Driver file: pdftex.def on input line 107.
 
-(C:\Users\Aidan\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\dvips.def
-File: dvips.def 2017/06/20 v3.1d Graphics/color driver for dvips
+(C:\Users\Aidan\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen171
 \Gin@req@width=\dimen172
@@ -235,8 +235,9 @@ Package: xcolor 2021/10/31 v2.13 LaTeX color extensions (UK)
 (C:\Users\Aidan\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package xcolor Info: Driver file: dvips.def on input line 227.
+Package xcolor Info: Driver file: pdftex.def on input line 227.
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1352.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1356.
 Package xcolor Info: Model `RGB' extended on input line 1368.
 Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1370.
 Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1371.
@@ -252,16 +253,11 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks24
 \@floatcapt=\box55
 )
-(C:\Users\Aidan\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-dvi
-ps.def
-File: l3backend-dvips.def 2022-02-07 L3 backend support: dvips
+(C:\Users\Aidan\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
+tex.def
+File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count283
 \l__pdf_internal_box=\box56
-\g__pdf_backend_object_int=\count283
-\l__pdf_backend_content_box=\box57
-\l__pdf_backend_model_box=\box58
-\g__pdf_backend_annotation_int=\count284
-\g__pdf_backend_link_int=\count285
-\g__pdf_backend_link_sf_int=\count286
 ) (Actuators and Power Electronics Report.aux)
 \openout1 = `"Actuators and Power Electronics Report.aux"'.
 
@@ -282,6 +278,31 @@ LaTeX Font Info:    ... okay on input line 48.
 
 -- Lines per column: 56 (exact).
 
+(C:\Users\Aidan\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
+ii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count284
+\scratchdimen=\dimen173
+\scratchbox=\box57
+\nofMPsegments=\count285
+\nofMParguments=\count286
+\everyMPshowfont=\toks25
+\MPscratchCnt=\count287
+\MPscratchDim=\dimen174
+\MPnumerator=\count288
+\makeMPintoPDFobject=\count289
+\everyMPtoPDFconversion=\toks26
+)
+(C:\Users\Aidan\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
+ase.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(C:\Users\Aidan\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.c
+fg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
 Overfull \hbox (92.59132pt too wide) in paragraph at lines 63--63
  [] 
  []
@@ -311,12 +332,15 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 127
 (C:\Users\Aidan\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-[1
+[1{C:/Users/Aidan/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}
 
 
 ]
-File: figures/21.pdf Graphic file (type eps)
- <figures/21.pdf>
+<figures/21.pdf, id=16, 676.65015pt x 334.19952pt>
+File: figures/21.pdf Graphic file (type pdf)
+<use figures/21.pdf>
+Package pdftex.def Info: figures/21.pdf  used on input line 218.
+(pdftex.def)             Requested size: 232.19843pt x 114.68192pt.
 LaTeX Font Info:    Trying to load font information for OMS+ptm on input line 2
 24.
 
@@ -325,11 +349,11 @@ File: omsptm.fd
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 224.
-File: figures/19.pdf Graphic file (type eps)
-
-<figures/19.pdf>
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
+<figures/19.pdf, id=17, 549.99232pt x 109.48456pt>
+File: figures/19.pdf Graphic file (type pdf)
+<use figures/19.pdf>
+Package pdftex.def Info: figures/19.pdf  used on input line 232.
+(pdftex.def)             Requested size: 232.19843pt x 46.22209pt.
 
 
 LaTeX Warning: Citation `halter2008electrical' on page 2 undefined on input lin
@@ -379,19 +403,41 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[2] (Actuators and Power Electronics Report.aux)
+[2 <./figures/21.pdf> <./figures/19.pdf
+
+pdfTeX warning: pdflatex (file ./figures/19.pdf): PDF inclusion: multiple pdfs 
+with page group included in a single page
+>] (Actuators and Power Electronics Report.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 3856 strings out of 478583
- 62378 string characters out of 2844371
- 379120 words of memory out of 3000000
- 22014 multiletter control sequences out of 15000+600000
- 496420 words of font info for 90 fonts, out of 8000000 for 9000
+ 4257 strings out of 478582
+ 68095 string characters out of 2844345
+ 373821 words of memory out of 3000000
+ 22399 multiletter control sequences out of 15000+600000
+ 509537 words of font info for 102 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,11n,62p,2052b,307s stack positions out of 10000i,1000n,20000p,200000b,80000s
+{C:/Users/Aidan/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:
+/Users/Aidan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex1
+0.pfb><C:/Users/Aidan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
+/cm/cmmi10.pfb><C:/Users/Aidan/AppData/Local/Programs/MiKTeX/fonts/type1/public
+/amsfonts/cm/cmmi7.pfb><C:/Users/Aidan/AppData/Local/Programs/MiKTeX/fonts/type
+1/public/amsfonts/cm/cmr10.pfb><C:/Users/Aidan/AppData/Local/Programs/MiKTeX/fo
+nts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/Aidan/AppData/Local/Programs/Mi
+KTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Aidan/AppData/Local/Prog
+rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Aidan/AppData/L
+ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/Aidan/A
+ppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Aidan/A
+ppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/Aidan/
+AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Aidan/
+AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on "Actuators and Power Electronics Report.pdf" (2 pages, 173590
+ bytes).
+PDF statistics:
+ 75 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
-Output written on "Actuators and Power Electronics Report.dvi" (2 pages, 12500 
-bytes).
