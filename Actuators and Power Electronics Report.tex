@@ -77,7 +77,7 @@ Juilius.atherton@ontariotechu.net}
 \begin{abstract}
 %This document is to be used as a template model for your design project report. Included in the .tex file are comments and instructions on how the document is constructed. Please check the \LaTeX documentation available online for additional information. For your design report, the abstract should contain a concise summary of the document.
 
-This report presents the design, modelling, control, simulation and analysis of an electromechanical system known as a the hexapod using matlab simulink and solid works software. A modeling procedure is described together with analytical formulas to justify our design specifications for the design specifications of the hexapod  robot.
+This report presents the design, modelling, control, simulation and analysis of an electromechanical system known as a the hexapod using matlab simulink and solid works software. A modeling procedure is described together with analytical formulas to justify our design specifications for the design specifications of the hexapod  robot. Tables containing these specifications can also be found within this report. The results are based on the analysis of the simulation values obtained in matlab. Experimental results are provided for the a servo motor powered hexapod while analytical results are presented from the various force and torque calculations performed.
 \end{abstract}
 
 % You may have up to 5 keywords below. The keywords should reflect the key aspects of the document.
@@ -102,7 +102,7 @@ Hexapod, Servo, Torque
 
 %The IEEEtran class file is used to format your paper and style the text. All margins, column widths, line spaces, and text fonts are already generated for you; please do not alter them. You may note peculiarities. For example, the head margin measures proportionately more than is customary. This measurement and others are deliberate, using specifications that anticipate your paper as one part of the entire proceedings, and not as an independent document. Please do not revise any of the current designations.
 
-Group 17 was given the task of designing, modeling, simulating and analysing an electromechanical system that includes different aspects of actuators and power electronics. Our group chose the hexapod robot as our choice for the electromechanical system. A hexapod is a robot with parallel kinematic positioning systems consisting of six independent actuator controlled struts or simply put a mechanical vehicle which walks on six legs. Hexapods offer several advantages over other types of mulit-legged  walking robots such as being able to maintain statically stable while in motion. A robot is considered to be statically stable when on three or more legs and due to the hexapods legs operating independently of each other it can still operate even when some of its legs become disabled. This combined with the fact that the hexapod acts on a single motion platform helps to eliminate the accumulation of guiding errors and increases precision. Furthermore it means that  the hexapod can use its additional legs to gain new foot placements or control a payload. Hexapods are the fastest moving robot with the optimum number of legs for movements as adding more legs does not increase speed. The Hexapod will use a servo motor as its actuating device in order to move the legs. A servo motor is a rotary actuator that allows for precise control of angular position, consisting of a motor coupled to a sensor for feedback, the feedback system increases accuracy and allows the motor to precisely control the rotary motion. The servo motor was selected instead of a stepper because of it's high rate of efficiency, power and torque compared to the stepper, additionally the stepper motor produces  high amount of heat when in operation which can lead to issues with the circuitry in the long run. Hexapods are useful for a variety of tasks particularily ones that can be dangerous for humans such as space exploration, undersea cable construction and rescue missions to name just few. 
+Group 17 was given the task of designing, modeling, simulating and analysing an electromechanical system that includes different aspects of actuators and power electronics. Our group chose the hexapod robot as our choice for the electromechanical system. A hexapod is a robot with parallel kinematic positioning systems consisting of six independent actuator controlled struts or simply put a mechanical vehicle which walks on six legs. Hexapods offer several advantages over other types of multi-legged  walking robots such as being able to maintain statically stable while in motion. A robot is considered to be statically stable when on three or more legs and due to the hexapods legs operating independently of each other it can still operate even when some of its legs become disabled. This combined with the fact that the hexapod acts on a single motion platform helps to eliminate the accumulation of guiding errors and increases precision. Furthermore it means that  the hexapod can use its additional legs to gain new foot placements or control a payload. Hexapods are the fastest moving robot with the optimum number of legs for movements as adding more legs does not increase speed. The Hexapod will use a servo motor as its actuating device in order to move the legs. A servo motor is a rotary actuator that allows for precise control of angular position, consisting of a motor coupled to a sensor for feedback, the feedback system increases accuracy and allows the motor to precisely control the rotary motion. The servo motor was selected instead of a stepper because of it's high rate of efficiency, power and torque compared to the stepper, additionally the stepper motor produces  high amount of heat when in operation which can lead to issues with the circuitry in the long run. Hexapods are useful for a variety of tasks particularly ones that can be dangerous for humans such as space exploration, undersea cable construction and rescue missions to name just few. 
 
 
 
@@ -120,11 +120,19 @@ Group 17 was given the task of designing, modeling, simulating and analysing an 
 
 % The following subsection shows how to include a numbered list of items.
 \subsection{Problem Description}
-You should have a smooth transition between your Introduction and this section. In this section you should identify the problem you are trying to solve. You should also research the current state of the art: explore if people have already solved the problem, and their respective solutions. The following is an example of how to implement a numbered list:
+%/You should have a smooth transition between your Introduction and this section. In this section you should identify the problem you are trying to solve. You should also research the current state of the art: explore if people have already solved the problem, and their respective solutions. The following is an example of how to implement a numbered list:
 
 \begin{enumerate}
-	\item Students are not yet informed on how to make a professional IEEE conference paper.
-	\item Students are unfamiliar with \LaTeX  or the TexMaker IDE.
+	\item Design of a hexapod robot
+	
+	\item Design must be statically stable
+	
+	\item Must maintain dynamic stability when carrying a specified load
+	
+	\item Modelling and simulation of hexapod robot in matlab.
+	
+	\item Analysis of finished design.
+	
 \end{enumerate}
 
 
@@ -136,9 +144,56 @@ You should have a smooth transition between your Introduction and this section. 
 In this subsection, break the problem description down into the fundamental requirements. Your proposed design should meet each of the criteria you create.
 
 \begin{itemize}
-	\item This paper should provide a template for the user.
-	\item This document should showcase the features and functions of the software.
-\end{itemize}
+	\item Robot is a hexapod therefore it should move on six legs
+	\item In order to maintain static stability the robot should be capable of maintaining motion even when up to 3 of its legs have been disabled.
+	\item Robot will use a servo motor as its actuating device.
+	\item Servo motor will meet the following specifications:
+	\end{itemize}
+
+	
+\begin{table}[htbp]
+	\caption{Servo Motor Specifications}
+	\begin{center}
+		\begin{tabular}{|c|c|}
+			\hline  
+			Frame Size & 22.2 x 11.8 x 31 mm \\
+			\hline
+			Modulation & Analog \\
+			\hline
+			Torque & 1.5 kg/cm \\
+			\hline
+			Stall Torque & 1.2 kg/cm \\
+			\hline
+			Mass & 9g \\
+			\hline
+			Speed & 0.1 s/60 deg \\
+			\hline
+			Operational voltage & 4-7.2 V \\
+			\hline
+			Rotational Range & 180 deg \\
+			\hline
+			Motor Type & 3-pole \\
+			\hline
+			Driver Input Voltage & DC \\
+			\hline
+			Pulse Cycle & 20 ms \\
+			\hline
+			Pulse Width & 500-2400 micro sec \\	
+		 	\hline
+		 	Temperature Range & 0-55 deg Celsius\\
+		 	\hline
+		 	Internal Resistance & 0.31 Ohm \\
+		 	\hline
+		 	Motor Inductance & 0.516 mH \\
+		 	\hline
+			
+			
+			
+		\end{tabular}
+		\end{center}
+	\label{tab1}
+	
+\end{table}
 
 
 
@@ -286,9 +341,10 @@ citation first, followed by the original foreign-language citation \cite{khadem2
 
 %% --------------------------------   Conclusion  --------------------------------
 \section{Conclusion and Discussion}
-The conclusion should be used to address the success of your design. Answer and discuss if your design met the requirements, had good performance, etc. If applicable, suggest future improvements or applications of the design.
+%/The conclusion should be used to address the success of your design. Answer and discuss if your design met the requirements, had good performance, etc. If applicable, suggest future improvements or applications of the design.
 
 
+Upon the completion of this project an understanding of electromcechanical system control specifically with hexapods was developed. This 
 
 
 
