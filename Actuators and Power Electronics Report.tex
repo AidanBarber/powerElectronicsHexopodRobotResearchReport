@@ -1,6 +1,6 @@
 % METE 3100 : Actuators and Power Electronics 
 % This is a default template to help you create a report in the format used for an IEEE conference paper.
-% Please take the time to review and beome familliar with the the syntax and structure of the document.
+% Please take the time to review and become familiar with the the syntax and structure of the document.
 % Text/Code that is preceded with a "%" sign is commented out - meaning the compiler ignores that line.
 % To utilize a Latex function, a "\" precedes the command. For example, to cite a document the command is \cite{ }
 
@@ -209,8 +209,7 @@ In this subsection, break the problem description down into the fundamental requ
 
 In this section you should fully explain your design. Include any schematics, models or diagrams of the system. Show and explain the results of your simulation or model. Prove that your design meets the requirements laid out earlier. To convey this information utilize the tools described in the following subsection.
 
-
-
+The motor inertia was found using the formula  [\ref{eq: Motor Inertia}]
 
 
 
@@ -226,6 +225,10 @@ Number equations consecutively. To make your  equations more compact, you may us
 but not Greek symbols. Use a long dash rather than a hyphen for a minus  sign. Punctuate equations with commas or periods when they are part of a sentence, as in:
 
 % The following declarations will create equations and automatically number them in the document. Notice the equation is given a unique name. You can reference these equations later in the document.
+\begin{equation} \label{eq: Motor Inertia}
+	J_{motor} = \frac{J_{load}}{n^2}
+\end{equation}
+
 \begin{equation} \label{eq: TransientCurrent}
 	i_0 = \frac{\sqrt{2}V_s}{Z}\sin(\omega t-\theta) + \left(I_0 + \frac{E}{R} - \frac{\sqrt{2}V_s}{Z}\sin\theta \right) e^{t}
 \end{equation}
