@@ -207,13 +207,14 @@ In this subsection, break the problem description down into the fundamental requ
 %% -----------------------------   Modeling and Simulation  -----------------------------
 \section{Modeling and Simulation}
 
-In this section you should fully explain your design. Include any schematics, models or diagrams of the system. Show and explain the results of your simulation or model. Prove that your design meets the requirements laid out earlier. To convey this information utilize the tools described in the following subsection.
+%In this section you should fully explain your design. Include any schematics, models or diagrams of the system. Show and explain the results of your simulation or model. Prove that your design meets the requirements laid out earlier. To convey this information utilize the tools described in the following subsection.
 
-The motor inertia was found using the formula  [\ref{eq: Motor Inertia}]
-
-
+Before calculations for the final design could take place several assumptions regarding the forces and torques of the hexapod had to be taken into consideration. These can be seen in figures 1 and 2.
 
 
+
+
+ 
 
 
 
@@ -221,25 +222,42 @@ The motor inertia was found using the formula  [\ref{eq: Motor Inertia}]
 %% -------------------------   Sub: Equations, Figures and Tables  -------------------------
 \subsection{Equations, Figures and Tables}
 
-Number equations consecutively. To make your  equations more compact, you may use the solidus (~/~), the exp function, or  appropriate exponents. Italicize Roman symbols for quantities and variables, 
-but not Greek symbols. Use a long dash rather than a hyphen for a minus  sign. Punctuate equations with commas or periods when they are part of a sentence, as in:
+\begin{figure}
+
+ \centering
+   \includegraphics[width = 0.45\textwidth]{figures/1.png}                \caption{Hexapod diagram with assumptions made}
+   \label{fig:mySampleFigure}
+   
+   \centering
+	\includegraphics[width = 0.45\textwidth]{figures/2.png}
+	\caption{Diagram for horizontal motor torque of a hexapod.}
+    \label{fig:myOtherSampleFigure}
+\end{figure}
 
 % The following declarations will create equations and automatically number them in the document. Notice the equation is given a unique name. You can reference these equations later in the document.
+The motor inertia was found using the formula  [\ref{eq: Motor Inertia}]
 \begin{equation} \label{eq: Motor Inertia}
 	J_{motor} = \frac{J_{load}}{n^2}
 \end{equation}
 
-\begin{equation} \label{eq: TransientCurrent}
-	i_0 = \frac{\sqrt{2}V_s}{Z}\sin(\omega t-\theta) + \left(I_0 + \frac{E}{R} - \frac{\sqrt{2}V_s}{Z}\sin\theta \right) e^{t}
-\end{equation}
+	The first set of equations focused on the motor inertia as well as the torque value of the model at critical positions along the frame. 
+The horizontal motor was found using the formula below  [\ref{eq: Horizontal Motor Torque}]
 
-\begin{equation} \label{eq: SteadyStateCurrent}
-	I_0 = \frac{\sqrt{2}V_s}{Z}\sin(\theta)\frac{1+e^{-(R/L)(\pi/\omega)}}{1-e^{-(R/L)(\pi/\omega)}} - \frac{E}{R}
-\end{equation}
+
+\begin{multline} \label{eq: Horizontal Motor Torque}
+\Sigma T_5 = T_1 - F_1 (L_1 \cos \theta_1 + L_2 \cos \theta_2) - L_3 W_x\\ + 2F_2 (2L_3 + L_1 \cos \theta_1 + L_2 \cos \theta_2)
+\end{multline}
+
+Another critical factor the torque on the upper leg was also calculated using the below listed formula [\ref{eq: Torque on Upper Arm}]
+
+\begin{multline} \label{eq: Torque on Upper Arm}
+	\Sigma T_h = T_2 - N_1 (L_1 \cos \theta_1 + L_2 \cos \theta_2)\\ +
+	W_1 (L_2 \cos \theta2) -W_4 L_3 -2W_2 L_3 - 2W_3 L_3\\ - 2W1 (2L_3 + L_2 \cos \theta_2)  + 	2N_2 (2L_3 + L_2 \cos \theta_2 + L_1 \cos \theta_1 )
+\end{multline} 
 
 
 % For an equation in line with text use the following. Note that these types of equations will not be numbered. Also note the use of "$" sign.
-You can reference the equations above in your document by using their defined label, [\ref{eq: TransientCurrent}] and [\ref{eq: SteadyStateCurrent}]. Steady-state: $I_0= i_0(\omega t =0) = i_0(\omega t = \pi)$. Individual variables can also be called, such as $\omega_0$. 
+%You can reference the equations above in your document by using their defined label, [\ref{eq: TransientCurrent}] and [\ref{eq: SteadyStateCurrent}]. Steady-state: $I_0= i_0(\omega t =0) = i_0(\omega t = \pi)$. Individual variables can also be called, such as $\omega_0$. 
 
 
 
@@ -266,17 +284,10 @@ You can reference the equations above in your document by using their defined la
 
 
 
-% How to include a figure. In this example the filepath to the inserted image is "figures/21.pdf" 
-% Like equations, figures will be automatically numbered in the document and can be referenced using their label.
-% Notice that a figure is a "float". It will automatically be placed in the document where the editor can make the best use of space.
-% If you need a figure to be in a certain position use the designator [H] after the figure declaration. See examples below.
-% You can manipulate the size of the image/figure by changing the value for width = ?\textwidth.
-\begin{figure}
-   \centering
-   \includegraphics[width = 0.45\textwidth]{figures/21.pdf}
-   \caption{An example figure. Figure captions should provide sufficient information to understand the image.}
-   \label{fig:mySampleFigure}
-\end{figure}
+
+  
+
+
 
 
 Figure Labels: Use words rather than symbols or abbreviations when writing Figure axis labels to avoid confusing the reader. As an example, write the quantity ``Magnetization'', or ``Magnetization, M'', not just ``M''. If including units in the label, present them within parentheses. Do not label axes only with units. In the example, write ``Magnetization (A/m)'' or ``Magnetization \{A[m(1)]\}'', not just ``A/m''. Do not label axes with a ratio of quantities and units. For example, write ``Temperature (K)'', not ``Temperature/K''. See examples Fig. \ref{fig:mySampleFigure} and Fig. \ref{fig:myOtherSampleFigure} in this document.
@@ -285,12 +296,6 @@ All figures should be clearly explained in the text. Furthermore, all figures sh
 
 
 
-\begin{figure}[H]
-    \centering
-	\includegraphics[width = 0.45\textwidth]{figures/19.pdf}
-	\caption{An example figure. Figure captions should provide sufficient information to understand the image.}
-    \label{fig:myOtherSampleFigure}
-\end{figure}
 
 
 
