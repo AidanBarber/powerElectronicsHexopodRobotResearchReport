@@ -21,6 +21,10 @@
 \providecommand{\BIBdecl}{\relax}
 \BIBdecl
 
+\bibitem{article56}
+C.~Urrea and J.~Kern, ``A new model for analog servo motors. simulations and
+  experimental results,'' vol.~2, pp. 29--38, 03 2011.
+
 \bibitem{halter2008electrical}
 R.~J. Halter, A.~Schned, J.~Heaney, A.~Hartov, S.~Schutz, and K.~D. Paulsen,
   ``Electrical impedance spectroscopy of benign and malignant prostatic
@@ -40,10 +44,5 @@ K.~S. Cole and R.~H. Cole, ``Dispersion and absorption in dielectrics i.
 C.~Gabriel, S.~Gabriel, and y.~E. Corthout, ``The dielectric properties of
   biological tissues: I. literature survey,'' \emph{Physics in Medicine \&
   Biology}, vol.~41, no.~11, p. 2231, 1996.
-
-\bibitem{khadem2019geometric}
-M.~Khadem, C.~Rossa, N.~Usmani, R.~S. Sloboda, and M.~Tavakoli, ``Geometric
-  control of 3d needle steering in soft-tissue,'' \emph{Automatica}, vol. 101,
-  pp. 36--43, 2019.
 
 \end{thebibliography}
