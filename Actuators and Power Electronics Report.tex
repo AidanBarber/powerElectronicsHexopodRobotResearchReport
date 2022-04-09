@@ -209,7 +209,8 @@ In this subsection, break the problem description down into the fundamental requ
 
 %In this section you should fully explain your design. Include any schematics, models or diagrams of the system. Show and explain the results of your simulation or model. Prove that your design meets the requirements laid out earlier. To convey this information utilize the tools described in the following subsection.
 
-Before calculations for the final design could take place several assumptions regarding the forces and torques of the hexapod had to be taken into consideration. These can be seen in figures 1 and 2.
+\subsection{Diagrams}
+Before calculations for the final design could take place several assumptions regarding the forces and torques of the hexapod had to be taken into consideration. These can be seen in figures 1 and 2 along with the hexapod diagrams and variables needed for  the final design.
 
 
 
@@ -220,27 +221,35 @@ Before calculations for the final design could take place several assumptions re
 
 
 %% -------------------------   Sub: Equations, Figures and Tables  -------------------------
-\subsection{Equations, Figures and Tables}
 
 \begin{figure}
 
  \centering
-   \includegraphics[width = 0.45\textwidth]{figures/1.png}                \caption{Hexapod diagram with assumptions made}
-   \label{fig:mySampleFigure}
+   \includegraphics[width = 0.55\textwidth]{figures/1.png}                \caption{Hexapod diagram with assumptions made}
+   \label{fig: Diagram 1}
    
    \centering
 	\includegraphics[width = 0.45\textwidth]{figures/2.png}
 	\caption{Diagram for horizontal motor torque of a hexapod.}
-    \label{fig:myOtherSampleFigure}
+    \label{fig:Diagram 2}
 \end{figure}
 
 % The following declarations will create equations and automatically number them in the document. Notice the equation is given a unique name. You can reference these equations later in the document.
+
+
+\subsection{Equations}
+The was following assumption was made regarding the horizontal force on the hexapod using equation [\ref{eq: Horizontal Force Assumption}]
+\begin{equation} \label{eq: Horizontal Force Assumption}
+	F_1 = 2F_2
+\end{equation}
+
+
 The motor inertia was found using the formula  [\ref{eq: Motor Inertia}]
 \begin{equation} \label{eq: Motor Inertia}
 	J_{motor} = \frac{J_{load}}{n^2}
 \end{equation}
 
-	The first set of equations focused on the motor inertia as well as the torque value of the model at critical positions along the frame. 
+	The first set of e quations focused on the motor inertia as well as the torque value of the model at critical positions along the frame. 
 The horizontal motor was found using the formula below  [\ref{eq: Horizontal Motor Torque}]
 
 
@@ -251,48 +260,150 @@ The horizontal motor was found using the formula below  [\ref{eq: Horizontal Mot
 Another critical factor the torque on the upper leg was also calculated using the below listed formula [\ref{eq: Torque on Upper Arm}]
 
 \begin{multline} \label{eq: Torque on Upper Arm}
-	\Sigma T_h = T_2 - N_1 (L_1 \cos \theta_1 + L_2 \cos \theta_2)\\ +
+	\Sigma T_{hip} = T_2 - N_1 (L_1 \cos \theta_1 + L_2 \cos \theta_2)\\ +
 	W_1 (L_2 \cos \theta2) -W_4 L_3 -2W_2 L_3 - 2W_3 L_3\\ - 2W1 (2L_3 + L_2 \cos \theta_2)  + 	2N_2 (2L_3 + L_2 \cos \theta_2 + L_1 \cos \theta_1 )
 \end{multline} 
 
+The reaction force on one side of the hexapod for a single leg was represented as the torque for the foot of the leg and was calculated using the equation [\ref{eq: Torque on Foot}]
+
+\begin{multline} \label{eq: Torque on Foot}
+\Sigma T_{Left Foot} = -W_1 L_1 \cos \theta_1 - W_2 (L_1 \cos \theta_1 + L_2 \cos \theta_2)\\ - W_3 (L_1 \cos \theta_1 + L_2 \cos \theta_2) - W_4 ((L_1 \cos \theta_1 + L_2 \cos \theta_2 + L_3)\\ -2W_3 (2L_3 + L_1 \cos \theta_1 + L_2 \cos \theta_2)
+- 2W_2 (L_1 \cos \theta_1 + L_2 \cos \theta_2 +2L_3)\\ - 2W_1 (L_1 \cos \theta_1 + 2L_2 \cos \theta_2 +2L_3)\\ + 2N_2 (2L_1 \cos \theta_1 + 2L_2 \cos \theta_2 +2L_3)
+\end{multline}
+
+The remaining reaction forces were calculated using the equation [\ref{eq: Reaction Forces}]
+\begin{equation} \label{eq: Reaction Forces}
+N_1+2N_2 = W_4+ 6(W_1+W_2+W_3 )
+\end{equation}
+
+The hexpods weight could be calculated as the summation of its component weights as can be seen in equation[\ref{eq: Weight}]
+
+\begin{equation} \label{eq: Weight}
+W_4 = W_{Frame}+W_{Battery}+W_{Elect}
+\end{equation}
+
+
+The hexapods incline control was determined using the following equation [\ref{eq: Incline Control}]
+
+\begin{equation} \label{eq: Incline Control}
+W_x = W \sin \beta
+\end{equation}
+
+
+
+\subsection{Solid works Model}
+The results of these calculations along with the information from the design specifications were used to create the solid works model.
+
+\begin{figure}[h]
+ \centering
+   \includegraphics[width = 0.55\textwidth]{figures/3.png}                \caption{Hexapod Solidworks Model}
+   \label{fig:Physical Model }
+\end{figure}
+
+The figure above depicts a hexapod developed with the core concepts above in mind. This hexapod robot is developed using PVC plastic. Using this mechanical model three core concepts were pulled for future use within the simulink model. The first is the structural safety factor determined from placing the mass of a third of the robot's weight (due to 3 legs up, 3 legs down) as a pressure upon a given test leg.The following table 2 lists the design specifications of the solid works model
+
+\begin{table}[htbp]
+	\caption{Hexapod Dimensions}
+	\begin{center}
+		\begin{tabular}{|c|c|}
+			\hline  
+			Foot Mass & 20.18 g \\
+			\hline
+			Foot Length (L1) & 65.5 mm\\
+			\hline
+			Knee Mass (W1) & 57.54 g\\
+			\hline
+			Knee Length (L2) & 2 mm\\
+			\hline
+			Thigh Mass (W3) & 57.54 g\\
+			\hline
+			Arduino Mass (Warduino) & 47 g\\
+			\hline
+			Half Body Length (L3) & 79.72 mm\\
+			\hline
+			Full Body Mass (W4) & 598.06 g \\
+		 	\hline
+			
+			
+		\end{tabular}
+		\end{center}
+	\label{tab1}
+	
+\end{table}
+
+
+Creating a model in solid works allowed us to perform simulations to determine values that would normally be difficult to calculate by hand for such an oddly shaped device. Using the solid works simulation we were able to observe the stress-strain relationship of our mechanical design.
+
+\begin{figure}[h]
+ \centering
+   \includegraphics[width = 0.49\textwidth]{figures/4.png}                \caption{Stress-Strain of Mechanical Design}
+   \label{fig:Stress-Strain of Mechanical Design}
+\end{figure}
+
+
+
+From the figure above it is determined that the model is structurally sound and thus is within the clear to perform test upon. Next we move onto understanding the specifications of each link and how they interact with each other. The solids works tool was used to determine the weights and lengths of each link; these values were later recorded for future use. As well the solids work model was then used to determine the range of motion the motors would be able to achieve. While the inertias could be hand solved using the formula in the matrix.\\
+
+\begin{equation*}
+I_c = 
+\begin{bmatrix}
+\frac{1}{12} M_c (3R^2+H^2) & 0 & 0\\
+0 & \frac{1}{12} M_c R^2 & 0\\
+0 & 0 & \frac{1}{12} M_c (3R^2+H^2)\\
+
+\end{bmatrix}
+\end{equation*}\\
+
+It was determined that a solid works model could be used to simplify inertias within the 3 sets of components.\\
+
+In order to understand the kinematic characteristics of a hexapod robot with arbitrary values imputed into link weights and link lengths we normally would use the Denavit-Hartenberg algorithm, applying it to a leg of the hexapod robot. Through the assumption that the model involved is a symmetrical structure composed of six identical legs, having three degrees of freedom in each leg we can thus assume due to symmetry that we only need to work on a single leg with a degree of freedom of 3 rather then the complete model with a degree of freedom of 18.
 
 % For an equation in line with text use the following. Note that these types of equations will not be numbered. Also note the use of "$" sign.
 %You can reference the equations above in your document by using their defined label, [\ref{eq: TransientCurrent}] and [\ref{eq: SteadyStateCurrent}]. Steady-state: $I_0= i_0(\omega t =0) = i_0(\omega t = \pi)$. Individual variables can also be called, such as $\omega_0$. 
 
+\subsection{Electromechanical Model in Simulink}
+Once the necessaey calculations an physical modelling had been complete the project continued with the design of the Electromechanical model using simulink simulation software.\\
 
+Before the models construction,research had first been conducted on various servo motors and their performance as well as subsequent electro mechanical models. Figures 5 and 6 represent the load effects on the system .\\
 
+\begin{figure}[h]
+ \centering
+   \includegraphics[width = 0.5\textwidth]{figures/5.png}                \caption{Model of DC motor with external load coupled by gears}
+   \label{fig:Model of DC motor with external load coupled by gears}
+\end{figure}
 
-% How to construct a table. Notice the use of \textbf and \textit for bold and italic fonts. \hline creates a horizontal line. 
-\begin{table}[htbp]
-	\caption{Table Type Styles}
-	\begin{center}
-		\begin{tabular}{|c|c|c|c|}
-			\hline  
-			\textbf{Table}&\multicolumn{3}{|c|}{\textbf{Table Column Head}} \\
-			\cline{2-4} 
-			\textbf{Head} & \textbf{\textit{Table column subhead}}& \textbf{\textit{Subhead}}& \textbf{\textit{Subhead}} \\
-			\hline
-			copy& More table copy$^{\mathrm{a}}$& &  \\
-			\hline
-			\multicolumn{4}{l}{$^{\mathrm{a}}$Sample of a Table footnote.}
-		\end{tabular}
-	\label{tab1}
-	\end{center}
-\end{table}
+\begin{figure}[h]
+ \centering
+   \includegraphics[width = 0.5\textwidth]{figures/6.png}                \caption{Model showing load effect on motor}
+   \label{fig:Model Showing Load Effect on motor}
+\end{figure}
 
 
 
 
 
+Once the necessary research had been conducted the electromechanical model was designed as can be seen in figure 7.
 
+
+\begin{figure}[H]
+ \centering
+   \includegraphics[width = 1.05\textwidth]{figures/7.png}                \caption{Electromechanical Model}
+   \label{fig:Electromechanical Model}
+\end{figure}
+
+\begin{figure}[h]
+ \centering
+   \includegraphics[width = 0.45\textwidth]{figures/8.png}                \caption{Electromechanical Model Simulation Results}
+   \label{fig:Electromechanical Model Simulation Results}
+\end{figure}
   
 
 
 
 
-Figure Labels: Use words rather than symbols or abbreviations when writing Figure axis labels to avoid confusing the reader. As an example, write the quantity ``Magnetization'', or ``Magnetization, M'', not just ``M''. If including units in the label, present them within parentheses. Do not label axes only with units. In the example, write ``Magnetization (A/m)'' or ``Magnetization \{A[m(1)]\}'', not just ``A/m''. Do not label axes with a ratio of quantities and units. For example, write ``Temperature (K)'', not ``Temperature/K''. See examples Fig. \ref{fig:mySampleFigure} and Fig. \ref{fig:myOtherSampleFigure} in this document.
+%Figure Labels: Use words rather than symbols or abbreviations when writing Figure axis labels to avoid confusing the reader. As an example, write the quantity ``Magnetization'', or ``Magnetization, M'', not just ``M''. If including units in the label, present them within parentheses. Do not label axes only with units. In the example, write ``Magnetization (A/m)'' or ``Magnetization \{A[m(1)]\}'', not just ``A/m''. Do not label axes with a ratio of quantities and units. For example, write ``Temperature (K)'', not ``Temperature/K''. See examples Fig. \ref{fig:mySampleFigure} and Fig. \ref{fig:myOtherSampleFigure} in this document.
 
-All figures should be clearly explained in the text. Furthermore, all figures should have a purpose, do not include irrelevant or redundant images. Doing so will only make the document more cluttered.
+%All figures should be clearly explained in the text. Furthermore, all figures should have a purpose, do not include irrelevant or redundant images. Doing so will only make the document more cluttered.
 
 
 
@@ -313,7 +424,6 @@ All figures should be clearly explained in the text. Furthermore, all figures sh
 % It is strongly encouraged to use Google Scholar and Bibtex to create your .bib file.
 \subsection{References}
 The value outlines how to properly include citations in your report. The sources used are only used in an example context.
-
 Please number citations consecutively within brackets \cite{halter2008electrical}. The sentence punctuation follows the bracket \cite{jossinet1998impedivity}. Refer simply to the reference number, as in \cite{cole1941dispersion}---do not use ``Ref. \cite{cole1941dispersion}'' or ``reference \cite{cole1941dispersion}'' except at the beginning of a sentence: ``Reference \cite{cole1941dispersion} was the first $\ldots$''
 
 
