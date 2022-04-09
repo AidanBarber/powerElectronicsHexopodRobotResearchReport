@@ -14,12 +14,12 @@ Warning--I didn't find a database entry for "khadem2019geometric"
 -- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
-Warning--empty journal in article56
+Warning--empty journal in article
 
 Done.
 You've used 5 entries,
             4087 wiz_defined-function locations,
-            860 strings with 8269 characters,
+            859 strings with 8260 characters,
 and the built_in function-call counts, 4025 in all, are:
 = -- 346
 > -- 83

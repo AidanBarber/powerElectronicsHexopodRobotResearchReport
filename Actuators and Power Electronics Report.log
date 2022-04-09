@@ -1,12 +1,12 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.4.6)  9 APR 2022 17:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.4.3)  9 APR 2022 17:59
 entering extended mode
  restricted \write18 enabled.
+ file:line:error style messages enabled.
  %&-line parsing enabled.
-**"./Actuators and Power Electronics Report.tex"
-(Actuators and Power Electronics Report.tex
+**"d:/UOIT/year3/semester2/ActuatorsAndPowerElectronics/Project/powerElectronicsHexopodRobotResearchReport/Actuators and Power Electronics Report.tex"
+(d:/UOIT/year3/semester2/ActuatorsAndPowerElectronics/Project/powerElectronicsHexopodRobotResearchReport/Actuators and Power Electronics Report.tex
 LaTeX2e <2021-11-15> patch level 1
-L3 programming layer <2022-02-24>
-(C:\Users\Aidan\AppData\Local\Programs\MiKTeX\tex/latex/ieeetran\IEEEtran.cls
+L3 programming layer <2022-02-24> (D:\ProgramFiles\MiKTeX\tex/latex/ieeetran\IEEEtran.cls
 Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
 -- See the "IEEEtran_HOWTO" manual for usage information.
 -- http://www.michaelshell.org/tex/ieeetran/
@@ -17,9 +17,8 @@ Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
 \@IEEEtrantmpcountB=\count186
 \@IEEEtrantmpcountC=\count187
 \@IEEEtrantmptoksA=\toks16
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 5
-03.
-(C:\Users\Aidan\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ptm.fd
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 503.
+(D:\ProgramFiles\MiKTeX\tex/latex/psnfss\ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 -- Using 8.5in x 11in (letter) paper.
@@ -33,52 +32,42 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <5> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
-
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <7> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
-
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <8> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
-
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <9> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
-
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <10> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
-
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <11> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <11> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
-
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
-
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <17> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
-
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <20> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <20> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
-
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
-
 \IEEEquantizedlength=\dimen145
 \IEEEquantizedlengthdiff=\dimen146
 \IEEEquantizedtextheightdiff=\dimen147
@@ -115,29 +104,25 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24> not available
 \@IEEEtranrubishbin=\box51
 )
 ** ATTENTION: Overriding command lockouts (line 24).
-(C:\Users\Aidan\AppData\Local\Programs\MiKTeX\tex/latex/cite\cite.sty
+(D:\ProgramFiles\MiKTeX\tex/latex/cite\cite.sty
 LaTeX Info: Redefining \cite on input line 302.
 LaTeX Info: Redefining \nocite on input line 332.
 Package: cite 2015/02/27  v 5.5
-)
-(C:\Users\Aidan\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+) (D:\ProgramFiles\MiKTeX\tex/latex/amsmath\amsmath.sty
 Package: amsmath 2021/10/15 v2.17l AMS math features
 \@mathmargin=\skip50
 
 For additional information on amsmath, use the `?' option.
-(C:\Users\Aidan\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+(D:\ProgramFiles\MiKTeX\tex/latex/amsmath\amstext.sty
 Package: amstext 2021/08/26 v2.01 AMS text
-
-(C:\Users\Aidan\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+ (D:\ProgramFiles\MiKTeX\tex/latex/amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks17
 \ex@=\dimen162
-))
-(C:\Users\Aidan\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+)) (D:\ProgramFiles\MiKTeX\tex/latex/amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen163
-)
-(C:\Users\Aidan\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+) (D:\ProgramFiles\MiKTeX\tex/latex/amsmath\amsopn.sty
 Package: amsopn 2021/08/26 v2.02 operator names
 )
 \inf@bad=\count266
@@ -177,25 +162,20 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
 \mathdisplay@stack=\toks21
 LaTeX Info: Redefining \[ on input line 2938.
 LaTeX Info: Redefining \] on input line 2939.
-)
-(C:\Users\Aidan\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
+) (D:\ProgramFiles\MiKTeX\tex/latex/amsfonts\amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
-
-(C:\Users\Aidan\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
+ (D:\ProgramFiles\MiKTeX\tex/latex/amsfonts\amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-))
-(C:\Users\Aidan\AppData\Local\Programs\MiKTeX\tex/latex/algorithms\algorithmic.
-sty
+)) (D:\ProgramFiles\MiKTeX\tex/latex/algorithms\algorithmic.sty
 Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
- (C:\Users\Aidan\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+ (D:\ProgramFiles\MiKTeX\tex/latex/base\ifthen.sty
 Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
-)
-(C:\Users\Aidan\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+) (D:\ProgramFiles\MiKTeX\tex/latex/graphics\keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks22
 )
@@ -205,34 +185,26 @@ Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \c@ALC@depth=\count281
 \ALC@tlm=\skip53
 \algorithmicindent=\skip54
-)
-(C:\Users\Aidan\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+) (D:\ProgramFiles\MiKTeX\tex/latex/graphics\graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
-
-(C:\Users\Aidan\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+ (D:\ProgramFiles\MiKTeX\tex/latex/graphics\graphics.sty
 Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
-
-(C:\Users\Aidan\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+ (D:\ProgramFiles\MiKTeX\tex/latex/graphics\trig.sty
 Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
-)
-(C:\Users\Aidan\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.c
-fg
+) (D:\ProgramFiles\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 107.
-
-(C:\Users\Aidan\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+ (D:\ProgramFiles\MiKTeX\tex/latex/graphics-def\pdftex.def
 File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen171
 \Gin@req@width=\dimen172
-) (C:\Users\Aidan\AppData\Local\Programs\MiKTeX\tex/latex/base\textcomp.sty
+) (D:\ProgramFiles\MiKTeX\tex/latex/base\textcomp.sty
 Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
-)
-(C:\Users\Aidan\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+) (D:\ProgramFiles\MiKTeX\tex/latex/xcolor\xcolor.sty
 Package: xcolor 2021/10/31 v2.13 LaTeX color extensions (UK)
-
-(C:\Users\Aidan\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+ (D:\ProgramFiles\MiKTeX\tex/latex/graphics-cfg\color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 227.
@@ -245,16 +217,14 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1372.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1373.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1374.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1375.
-) (C:\Users\Aidan\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+) (D:\ProgramFiles\MiKTeX\tex/latex/float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count282
 \float@exts=\toks23
 \float@box=\box54
 \@float@everytoks=\toks24
 \@floatcapt=\box55
-)
-(C:\Users\Aidan\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
-tex.def
+) (D:\ProgramFiles\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count283
 \l__pdf_internal_box=\box56
@@ -277,9 +247,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 48.
 LaTeX Font Info:    ... okay on input line 48.
 
 -- Lines per column: 56 (exact).
-
-(C:\Users\Aidan\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
-ii
+(D:\ProgramFiles\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count284
 \scratchdimen=\dimen173
@@ -292,15 +260,10 @@ ii
 \MPnumerator=\count288
 \makeMPintoPDFobject=\count289
 \everyMPtoPDFconversion=\toks26
-)
-(C:\Users\Aidan\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
-ase.sty
+) (D:\ProgramFiles\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
-85.
-
-(C:\Users\Aidan\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.c
-fg
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (D:\ProgramFiles\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 Overfull \hbox (92.59132pt too wide) in paragraph at lines 63--63
@@ -317,18 +280,14 @@ Overfull \hbox (92.59132pt too wide) in paragraph at lines 63--63
  [] 
  []
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 147
-.
-(C:\Users\Aidan\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+LaTeX Font Info:    Trying to load font information for U+msa on input line 147.
+(D:\ProgramFiles\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 147
-.
-
-(C:\Users\Aidan\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+LaTeX Font Info:    Trying to load font information for U+msb on input line 147.
+ (D:\ProgramFiles\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-[1{C:/Users/Aidan/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}
+) [1{C:/Users/aidan/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}
 
 
 ]
@@ -414,9 +373,6 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 392--392
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-LaTeX Warning: Citation `article' on page 3 undefined on input line 395.
-
 <figures/7.png, id=27, 2080.77374pt x 449.42906pt>
 File: figures/7.png Graphic file (type png)
 <use figures/7.png>
@@ -442,8 +398,7 @@ Underfull \vbox (badness 1596) has occurred while \output is active []
 
 
 
-LaTeX Warning: Citation `khadem2019geometric' on page 4 undefined on input line
- 471.
+LaTeX Warning: Citation `khadem2019geometric' on page 4 undefined on input line 471.
 
 (Actuators and Power Electronics Report.bbl)
 
@@ -457,35 +412,21 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[4 <./figures/6.png> <./figures/7.png> <./figures/8.png> <./figures/9.png>]
-(Actuators and Power Electronics Report.aux)
+[4 <./figures/6.png> <./figures/7.png> <./figures/8.png> <./figures/9.png>] (Actuators and Power Electronics Report.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 4311 strings out of 478582
- 69232 string characters out of 2844345
+ 4312 strings out of 478582
+ 68116 string characters out of 2854663
  375949 words of memory out of 3000000
- 22448 multiletter control sequences out of 15000+600000
+ 22447 multiletter control sequences out of 15000+600000
  507392 words of font info for 100 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,8n,62p,2051b,255s stack positions out of 10000i,1000n,20000p,200000b,80000s
-{C:/Users/Aidan/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:
-/Users/Aidan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex1
-0.pfb><C:/Users/Aidan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
-/cm/cmmi10.pfb><C:/Users/Aidan/AppData/Local/Programs/MiKTeX/fonts/type1/public
-/amsfonts/cm/cmmi7.pfb><C:/Users/Aidan/AppData/Local/Programs/MiKTeX/fonts/type
-1/public/amsfonts/cm/cmr10.pfb><C:/Users/Aidan/AppData/Local/Programs/MiKTeX/fo
-nts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Aidan/AppData/Local/Programs/Mi
-KTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Aidan/AppData/Local/Pr
-ograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/Aidan/AppData/
-Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Aidan/AppData/
-Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/Aidan/AppData
-/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Aidan/AppData
-/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on "Actuators and Power Electronics Report.pdf" (4 pages, 236901
-9 bytes).
+ 55i,8n,62p,2153b,255s stack positions out of 10000i,1000n,20000p,200000b,80000s
+{D:/ProgramFiles/MiKTeX/fonts/enc/dvips/base/8r.enc}<D:/ProgramFiles/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><D:/ProgramFiles/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/ProgramFiles/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><D:/ProgramFiles/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/ProgramFiles/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><D:/ProgramFiles/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/ProgramFiles/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><D:/ProgramFiles/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><D:/ProgramFiles/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><D:/ProgramFiles/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><D:/ProgramFiles/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on "Actuators and Power Electronics Report.pdf" (4 pages, 2368982 bytes).
 PDF statistics:
  90 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
