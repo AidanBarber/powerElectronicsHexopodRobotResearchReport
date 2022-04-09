@@ -1,15 +1,10 @@
-This is BibTeX, Version 0.99d
-Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
-The top-level auxiliary file: Actuators and Power Electronics Report.aux
-Reallocating 'name_of_file' (item size: 1) to 9 items.
+This is BibTeX, Version 0.99dThe top-level auxiliary file: Actuators and Power Electronics Report.aux
 The style file: IEEEtran.bst
-Reallocating 'name_of_file' (item size: 1) to 13 items.
-Reallocating 'singl_function' (item size: 4) to 100 items.
-Reallocating 'singl_function' (item size: 4) to 100 items.
-Reallocating 'singl_function' (item size: 4) to 100 items.
-Reallocating 'wiz_functions' (item size: 4) to 6000 items.
-Reallocating 'singl_function' (item size: 4) to 100 items.
 Database file #1: myWorksCited.bib
+Warning--I didn't find a database entry for "halter2008electrical"
+Warning--I didn't find a database entry for "jossinet1998impedivity"
+Warning--I didn't find a database entry for "cole1941dispersion"
+Warning--I didn't find a database entry for "gabriel1996dielectricI"
 Warning--I didn't find a database entry for "khadem2019geometric"
 -- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
@@ -17,45 +12,4 @@ Warning--I didn't find a database entry for "khadem2019geometric"
 Warning--empty journal in article
 
 Done.
-You've used 5 entries,
-            4087 wiz_defined-function locations,
-            859 strings with 8260 characters,
-and the built_in function-call counts, 4025 in all, are:
-= -- 346
-> -- 83
-< -- 37
-+ -- 46
-- -- 14
-* -- 209
-:= -- 632
-add.period$ -- 10
-call.type$ -- 5
-change.case$ -- 5
-chr.to.int$ -- 69
-cite$ -- 6
-duplicate$ -- 291
-empty$ -- 278
-format.name$ -- 18
-if$ -- 917
-int.to.chr$ -- 0
-int.to.str$ -- 5
-missing$ -- 48
-newline$ -- 38
-num.names$ -- 5
-pop$ -- 90
-preamble$ -- 1
-purify$ -- 0
-quote$ -- 2
-skip$ -- 314
-stack$ -- 0
-substring$ -- 178
-swap$ -- 254
-text.length$ -- 14
-text.prefix$ -- 0
-top$ -- 5
-type$ -- 5
-warning$ -- 1
-while$ -- 18
-width$ -- 6
-write$ -- 75
-(There were 2 warnings)
+(There were 6 warnings)
