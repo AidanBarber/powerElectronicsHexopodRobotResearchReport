@@ -1,14 +1,14 @@
 # Fdb version 3
-["bibtex Actuators and Power Electronics Report"] 1649537422 "Actuators and Power Electronics Report.aux" "Actuators and Power Electronics Report.bbl" "Actuators and Power Electronics Report" 1649537426
+["bibtex Actuators and Power Electronics Report"] 1649538416 "Actuators and Power Electronics Report.aux" "Actuators and Power Electronics Report.bbl" "Actuators and Power Electronics Report" 1649538420
   "./IEEEtran.bst" 1649535036 60155 fdf5358926cadba85025b0e8f2006858 ""
-  "Actuators and Power Electronics Report.aux" 1649537425 4409 8078649aae89ebe8bcb370dad890346c "pdflatex"
+  "Actuators and Power Electronics Report.aux" 1649538419 4651 c00656cc086471f09c69971bfe8f0334 "pdflatex"
   "myWorksCited.bib" 1648682016 1583 d6313db7704dd0aa09533867915405af ""
   (generated)
   "Actuators and Power Electronics Report.bbl"
   "Actuators and Power Electronics Report.blg"
-["pdflatex"] 1649537423 "d:/UOIT/year3/semester2/ActuatorsAndPowerElectronics/Project/powerElectronicsHexopodRobotResearchReport/Actuators and Power Electronics Report.tex" "Actuators and Power Electronics Report.pdf" "Actuators and Power Electronics Report" 1649537426
-  "Actuators and Power Electronics Report.aux" 1649537425 4409 8078649aae89ebe8bcb370dad890346c "pdflatex"
-  "Actuators and Power Electronics Report.bbl" 1649537423 2019 4b2e6c23ff9fa95ce99db3fa075cbcca "bibtex Actuators and Power Electronics Report"
+["pdflatex"] 1649538416 "d:/UOIT/year3/semester2/ActuatorsAndPowerElectronics/Project/powerElectronicsHexopodRobotResearchReport/Actuators and Power Electronics Report.tex" "Actuators and Power Electronics Report.pdf" "Actuators and Power Electronics Report" 1649538420
+  "Actuators and Power Electronics Report.aux" 1649538419 4651 c00656cc086471f09c69971bfe8f0334 "pdflatex"
+  "Actuators and Power Electronics Report.bbl" 1649538416 2019 4b2e6c23ff9fa95ce99db3fa075cbcca "bibtex Actuators and Power Electronics Report"
   "C:/Users/aidan/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1649007459 82507 a9eef8696c92627b87e9975edea03b2a ""
   "C:/Users/aidan/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1649011396 10236642 7cc9b4043a1f126da438fd45512b3e57 ""
   "D:/ProgramFiles/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 1194fb36dfcb11d9ae9802f2b00b60a3 ""
@@ -79,7 +79,7 @@
   "D:/ProgramFiles/MiKTeX/tex/latex/l3backend/l3backend-pdftex.def" 1644215060 29921 d0acc05a38bd4aa3af2017f0b7c137ce ""
   "D:/ProgramFiles/MiKTeX/tex/latex/psnfss/ot1ptm.fd" 1585253778 1007 39eda417ef5837ce5e38661cfad2cedf ""
   "D:/ProgramFiles/MiKTeX/tex/latex/xcolor/xcolor.sty" 1636284872 56029 3f7889dab51d620aa43177c391b7b190 ""
-  "d:/UOIT/year3/semester2/ActuatorsAndPowerElectronics/Project/powerElectronicsHexopodRobotResearchReport/Actuators and Power Electronics Report.tex" 1649537413 23592 aedcf3546500845c440e2b8d244d6245 ""
+  "d:/UOIT/year3/semester2/ActuatorsAndPowerElectronics/Project/powerElectronicsHexopodRobotResearchReport/Actuators and Power Electronics Report.tex" 1649538410 23857 8acd03f6bfb95742e90c710d822c10be ""
   "figures/1.png" 1649516603 162369 fd701ed967cc91ffde0f9256947076e2 ""
   "figures/2.png" 1649516603 52841 8e7edd282388eb4c0bc9ffc31dae6a77 ""
   "figures/3.png" 1649516603 580340 f2d1aa90be0220f032d89980b3e06081 ""
