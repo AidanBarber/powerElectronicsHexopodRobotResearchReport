@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2022.3.29)  9 APR 2022 15:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2022.3.29)  9 APR 2022 15:58
 entering extended mode
 **"./Actuators and Power Electronics Report.tex"
 ("Actuators and Power Electronics Report.tex"
@@ -686,10 +686,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 4512 strings out of 492942
- 65713 string characters out of 3135488
+ 4513 strings out of 492942
+ 65719 string characters out of 3135488
  141079 words of memory out of 3000000
- 8330 multiletter control sequences out of 15000+200000
+ 8331 multiletter control sequences out of 15000+200000
  40637 words of font info for 85 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,8n,35p,2034b,243s stack positions out of 5000i,500n,10000p,200000b,50000s
