@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.4.6)  9 APR 2022 12:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.4.6)  9 APR 2022 10:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**"./Actuators and Power Electronics Report.tex"
-(Actuators and Power Electronics Report.tex
+**./Template.tex
+(Template.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-02-24>
 (C:\Users\Aidan\AppData\Local\Programs\MiKTeX\tex/latex/ieeetran\IEEEtran.cls
@@ -258,27 +258,23 @@ tex.def
 File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count283
 \l__pdf_internal_box=\box56
-) (Actuators and Power Electronics Report.aux
+) (Template.aux)
+\openout1 = `Template.aux'.
 
-LaTeX Warning: Label `tab1' multiply defined.
-
-)
-\openout1 = `"Actuators and Power Electronics Report.aux"'.
-
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
 
 -- Lines per column: 56 (exact).
 
@@ -307,187 +303,92 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Overfull \hbox (92.59132pt too wide) in paragraph at lines 63--63
+Overfull \hbox (92.59132pt too wide) in paragraph at lines 64--64
  [] 
  []
 
 
-Overfull \hbox (92.59132pt too wide) in paragraph at lines 63--63
+Overfull \hbox (92.59132pt too wide) in paragraph at lines 64--64
  [] 
  []
 
 
-Overfull \hbox (92.59132pt too wide) in paragraph at lines 63--63
+Overfull \hbox (92.59132pt too wide) in paragraph at lines 64--64
  [] 
  []
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 147
-.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 79.
+
 (C:\Users\Aidan\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 147
-.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 79.
+
 
 (C:\Users\Aidan\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<figures/1.png, id=1, 1307.88625pt x 606.265pt>
-File: figures/1.png Graphic file (type png)
-<use figures/1.png>
-Package pdftex.def Info: figures/1.png  used on input line 228.
-(pdftex.def)             Requested size: 283.80157pt x 131.54704pt.
+<figures/21.pdf, id=1, 676.65015pt x 334.19952pt>
+File: figures/21.pdf Graphic file (type pdf)
+<use figures/21.pdf>
+Package pdftex.def Info: figures/21.pdf  used on input line 216.
+(pdftex.def)             Requested size: 232.19843pt x 114.68192pt.
+LaTeX Font Info:    Trying to load font information for OMS+ptm on input line 2
+22.
 
-Overfull \hbox (31.80157pt too wide) in paragraph at lines 228--228
- [][] 
- []
+(C:\Users\Aidan\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omsptm.fd
+File: omsptm.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 222.
 
-<figures/2.png, id=3, 350.30875pt x 176.66pt>
-File: figures/2.png Graphic file (type png)
-<use figures/2.png>
-Package pdftex.def Info: figures/2.png  used on input line 234.
-(pdftex.def)             Requested size: 232.19843pt x 117.10002pt.
 [1{C:/Users/Aidan/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}
 
 
 ]
-Overfull \hbox (29.44473pt too wide) detected at line 274
- []$[] \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 2\OML/cmm/m/it/10 W[]\OT1/cmr/m/n/1
-0 (2\OML/cmm/m/it/10 L[] \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 L[] [] ^^R[] \OT1/c
-mr/m/n/10 + \OML/cmm/m/it/10 L[] [] ^^R[]\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 ^^@
- \OT1/cmr/m/n/10 2\OML/cmm/m/it/10 W[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 L[] [] 
-^^R[] \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 L[] [] ^^R[] \OT1/cmr/m/n/10 + 2\OML/c
-mm/m/it/10 L[]\OT1/cmr/m/n/10 )$ 
- []
-
-<figures/3.png, id=13, 991.45406pt x 757.32938pt>
-File: figures/3.png Graphic file (type png)
-<use figures/3.png>
-Package pdftex.def Info: figures/3.png  used on input line 301.
-(pdftex.def)             Requested size: 283.80157pt x 216.77715pt.
-
-Overfull \hbox (31.80157pt too wide) in paragraph at lines 301--301
- [][] 
- []
-
-[2 <./figures/1.png> <./figures/2.png> <./figures/3.png>]
-<figures/4.png, id=25, 976.39781pt x 773.89125pt>
-File: figures/4.png Graphic file (type png)
-<use figures/4.png>
-Package pdftex.def Info: figures/4.png  used on input line 341.
-(pdftex.def)             Requested size: 252.84283pt x 200.39218pt.
-
-Overfull \hbox (0.84283pt too wide) in paragraph at lines 341--341
- [][] 
- []
+<figures/19.pdf, id=18, 549.99232pt x 109.48456pt>
+File: figures/19.pdf Graphic file (type pdf)
+<use figures/19.pdf>
+Package pdftex.def Info: figures/19.pdf  used on input line 230.
+(pdftex.def)             Requested size: 232.19843pt x 46.22209pt.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 347--348
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 357--358
-
- []
+LaTeX Warning: Citation `halter2008electrical' on page 2 undefined on input lin
+e 252.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 359--360
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 367--368
-
- []
+LaTeX Warning: Citation `jossinet1998impedivity' on page 2 undefined on input l
+ine 252.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 369--370
-
- []
-
-<figures/5.png, id=26, 1953.2975pt x 923.45pt>
-File: figures/5.png Graphic file (type png)
-<use figures/5.png>
-Package pdftex.def Info: figures/5.png  used on input line 373.
-(pdftex.def)             Requested size: 258.0pt x 121.96904pt.
-
-Overfull \hbox (6.0pt too wide) in paragraph at lines 373--373
- [][] 
- []
-
-<figures/6.png, id=27, 1723.43875pt x 724.7075pt>
-File: figures/6.png Graphic file (type png)
-<use figures/6.png>
-Package pdftex.def Info: figures/6.png  used on input line 379.
-(pdftex.def)             Requested size: 258.0pt x 108.48027pt.
-
-Overfull \hbox (6.0pt too wide) in paragraph at lines 379--379
- [][] 
- []
-
-<figures/7.png, id=28, 2080.77374pt x 449.42906pt>
-File: figures/7.png Graphic file (type png)
-<use figures/7.png>
-Package pdftex.def Info: figures/7.png  used on input line 392.
-(pdftex.def)             Requested size: 232.19843pt x 50.15054pt.
-
-Underfull \vbox (badness 3724) has occurred while \output is active []
-
- [3 <./figures/4.png> <./figures/5.png> <./figures/6.png>]
-! Too many }'s.
-l.396 ...Model Simulation varying input positions}
-                                                   it was concluded that the...
-You've closed more groups than you opened.
-Such booboos are generally harmless, so keep going.
-
-<figures/8.png, id=36, 709.14937pt x 310.15875pt>
-File: figures/8.png Graphic file (type png)
-<use figures/8.png>
-Package pdftex.def Info: figures/8.png  used on input line 399.
-(pdftex.def)             Requested size: 232.19843pt x 101.55289pt.
-<figures/9.png, id=37, 1445.4pt x 786.68906pt>
-File: figures/9.png Graphic file (type png)
-<use figures/9.png>
-Package pdftex.def Info: figures/9.png  used on input line 404.
-(pdftex.def)             Requested size: 232.19843pt x 126.37698pt.
-
-LaTeX Warning: Citation `halter2008electrical' on page 4 undefined on input lin
-e 437.
+LaTeX Warning: Citation `cole1941dispersion' on page 2 undefined on input line 
+252.
 
 
-LaTeX Warning: Citation `jossinet1998impedivity' on page 4 undefined on input l
-ine 437.
+LaTeX Warning: Citation `cole1941dispersion' on page 2 undefined on input line 
+252.
 
 
-LaTeX Warning: Citation `cole1941dispersion' on page 4 undefined on input line 
-437.
+LaTeX Warning: Citation `cole1941dispersion' on page 2 undefined on input line 
+252.
 
 
-LaTeX Warning: Citation `cole1941dispersion' on page 4 undefined on input line 
-437.
+LaTeX Warning: Citation `cole1941dispersion' on page 2 undefined on input line 
+252.
 
 
-LaTeX Warning: Citation `cole1941dispersion' on page 4 undefined on input line 
-437.
+LaTeX Warning: Citation `gabriel1996dielectricI' on page 2 undefined on input l
+ine 264.
 
 
-LaTeX Warning: Citation `cole1941dispersion' on page 4 undefined on input line 
-437.
+LaTeX Warning: Citation `gabriel1996dielectricI' on page 2 undefined on input l
+ine 265.
 
 
-LaTeX Warning: Citation `gabriel1996dielectricI' on page 4 undefined on input l
-ine 449.
+LaTeX Warning: Citation `khadem2019geometric' on page 2 undefined on input line
+ 272.
 
-
-LaTeX Warning: Citation `gabriel1996dielectricI' on page 4 undefined on input l
-ine 450.
-
-
-LaTeX Warning: Citation `khadem2019geometric' on page 4 undefined on input line
- 457.
-
-(Actuators and Power Electronics Report.bbl)
+No file Template.bbl.
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -499,40 +400,42 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[4 <./figures/7.png> <./figures/8.png> <./figures/9.png>]
-(Actuators and Power Electronics Report.aux)
+[2
+
+ <./figures/21.pdf> <./figures/19.pdf
+
+pdfTeX warning: pdflatex (file ./figures/19.pdf): PDF inclusion: multiple pdfs 
+with page group included in a single page
+>] (Template.aux)
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: There were multiply-defined labels.
-
  ) 
 Here is how much of TeX's memory you used:
- 4300 strings out of 478582
- 69077 string characters out of 2844345
- 376965 words of memory out of 3000000
- 22438 multiletter control sequences out of 15000+600000
- 506256 words of font info for 99 fonts, out of 8000000 for 9000
+ 4268 strings out of 478582
+ 67728 string characters out of 2844345
+ 374757 words of memory out of 3000000
+ 22405 multiletter control sequences out of 15000+600000
+ 512708 words of font info for 110 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,8n,62p,2051b,255s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 55i,11n,62p,714b,307s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/Aidan/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:
 /Users/Aidan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex1
 0.pfb><C:/Users/Aidan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
 /cm/cmmi10.pfb><C:/Users/Aidan/AppData/Local/Programs/MiKTeX/fonts/type1/public
 /amsfonts/cm/cmmi7.pfb><C:/Users/Aidan/AppData/Local/Programs/MiKTeX/fonts/type
 1/public/amsfonts/cm/cmr10.pfb><C:/Users/Aidan/AppData/Local/Programs/MiKTeX/fo
-nts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Aidan/AppData/Local/Programs/Mi
-KTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Aidan/AppData/Local/Pr
-ograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/Aidan/AppData/
-Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Aidan/AppData/
-Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/Aidan/AppData
-/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Aidan/AppData
-/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on "Actuators and Power Electronics Report.pdf" (4 pages, 236505
-6 bytes).
+nts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/Aidan/AppData/Local/Programs/Mi
+KTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Aidan/AppData/Local/Prog
+rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Aidan/AppData/L
+ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/Aidan/A
+ppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Aidan/A
+ppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/Aidan/
+AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Aidan/
+AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on Template.pdf (2 pages, 173296 bytes).
 PDF statistics:
- 90 PDF objects out of 1000 (max. 8388607)
+ 75 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 46 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 

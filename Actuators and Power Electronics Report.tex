@@ -166,7 +166,7 @@ In this subsection, break the problem description down into the fundamental requ
 			\hline
 			Mass & 9g \\
 			\hline
-			Speed & 0.1 s/60 deg \\
+			Speed & 0.12 s/60 deg \\
 			\hline
 			Operational voltage & 4-7.2 V \\
 			\hline
@@ -210,7 +210,7 @@ In this subsection, break the problem description down into the fundamental requ
 %In this section you should fully explain your design. Include any schematics, models or diagrams of the system. Show and explain the results of your simulation or model. Prove that your design meets the requirements laid out earlier. To convey this information utilize the tools described in the following subsection.
 
 \subsection{Diagrams}
-Before calculations for the final design could take place several assumptions regarding the forces and torques of the hexapod had to be taken into consideration. These can be seen in figures 1 and 2 along with the hexapod diagrams and variables needed for  the final design.
+Before calculations for the final design could take place several assumptions regarding the forces and torques of the hexapod had to be taken into consideration. These can be seen in figures \ref{fig: Diagram 1} and \ref{fig:Diagram 2} along with the hexapod diagrams and variables needed for  the final design.
 
 
 
@@ -227,10 +227,12 @@ Before calculations for the final design could take place several assumptions re
  \centering
    \includegraphics[width = 0.55\textwidth]{figures/1.png}                \caption{Hexapod diagram with assumptions made}
    \label{fig: Diagram 1}
-   
-   \centering
-	\includegraphics[width = 0.45\textwidth]{figures/2.png}
-	\caption{Diagram for horizontal motor torque of a hexapod.}
+\end{figure}
+
+\begin{figure}
+ \centering
+   \includegraphics[width = 0.45\textwidth]{figures/2.png}
+\caption{Diagram for horizontal motor torque of a hexapod.}
     \label{fig:Diagram 2}
 \end{figure}
 
@@ -300,7 +302,7 @@ The results of these calculations along with the information from the design spe
    \label{fig:Physical Model }
 \end{figure}
 
-The figure above depicts a hexapod developed with the core concepts above in mind. This hexapod robot is developed using PVC plastic. Using this mechanical model three core concepts were pulled for future use within the simulink model. The first is the structural safety factor determined from placing the mass of a third of the robot's weight (due to 3 legs up, 3 legs down) as a pressure upon a given test leg.The following table 2 lists the design specifications of the solid works model
+The figure above depicts a hexapod developed with the core concepts above in mind. This hexapod robot is developed using PVC plastic. Using this mechanical model three core concepts were pulled for future use within the simulink model. The first is the structural safety factor determined from placing the mass of a third of the robot's weight (due to 3 legs up, 3 legs down) as a pressure upon a given test leg.The following table \ref{tab1} lists the design specifications of the solid works model
 
 \begin{table}[htbp]
 	\caption{Hexapod Dimensions}
@@ -364,7 +366,7 @@ In order to understand the kinematic characteristics of a hexapod robot with arb
 \subsection{Electromechanical Model in Simulink}
 Once the necessaey calculations an physical modelling had been complete the project continued with the design of the Electromechanical model using simulink simulation software.\\
 
-Before the models construction,research had first been conducted on various servo motors and their performance as well as subsequent electro mechanical models. Figures 5 and 6 represent the load effects on the system .\\
+Before the models construction,research had first been conducted on various servo motors and their performance as well as subsequent electro mechanical models. Figures \ref{fig:Model of DC motor with external load coupled by gears} and \ref{fig:Model Showing Load Effect on motor} represent the load effects on the system .\\
 
 \begin{figure}[h]
  \centering
@@ -382,21 +384,29 @@ Before the models construction,research had first been conducted on various serv
 
 
 
-Once the necessary research had been conducted the electromechanical model was designed as can be seen in figure 7.
+Once the necessary research had been conducted the electromechanical model was designed as can be seen in figure \ref{fig:Electromechanical Model}
 
 
 \begin{figure}[H]
  \centering
-   \includegraphics[width = 1.05\textwidth]{figures/7.png}                \caption{Electromechanical Model}
+   \includegraphics[width = 0.45\textwidth]{figures/7.png}  \caption{Electromechanical Model of servo motor}
    \label{fig:Electromechanical Model}
 \end{figure}
-
+The model of the servo motor in figure \ref{fig:Electromechanical Model} uses a PID controller to measure the difference in desired and current position adjusting the voltage output accordingly. It should be noted that the servo motor would also include a potentiometer represented by a block relating voltage to angular position and a pulse with signal, however is was assumed that the pulse with would be generated by the micro controller and their by making creation of the pulse with and by extension the potentiometer relating to it not necessary.
+During testing the PID controller and gearbox were the only variable tuned as all other variables had been calculated from data sheet and experimental with reference 9g servo model. Both the Kp and gear box were increment together as the kp decreased response time contracting the gearboxes effect on load torque, a Kd value was included to minimize overshoot. Due to the high kp value it was decided to add a saturation block to represent the motoring reaching its max input voltage saturation to allow the model to remain plausible. Though simulation results shown in figure \ref{fig:Electromechanical Model Simulation Results} and figure \ref{fig:Electromechanical Model Simulation varying input positions} Model Simulation varying input positions} it was concluded that the created motor was able to proved a response time of 0.177 seconds for a 60 degree change and over multiple changes in position was able to average a overshoot of 3 percent each time. 
 \begin{figure}[h]
  \centering
    \includegraphics[width = 0.45\textwidth]{figures/8.png}                \caption{Electromechanical Model Simulation Results}
    \label{fig:Electromechanical Model Simulation Results}
 \end{figure}
-  
+\begin{figure}[h]
+ \centering
+   \includegraphics[width = 0.45\textwidth]{figures/9.png}                \caption{Electromechanical Model Simulation Results}
+   \label{fig:Electromechanical Model Simulation varying input positions}
+\end{figure}
+
+
+
 
 
 
