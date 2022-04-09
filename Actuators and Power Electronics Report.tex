@@ -226,7 +226,9 @@ A servo motor was chosen as it allows closed loop control over the the motor all
 Three motors were chosen per leg as it allows better actuation of the leg than two. By doing this we allow the leg to essentially grab the ground and provide more grip when reaching for new locations
 
 \subsection{Solid works Model}
-The results of these calculations along with the information from the design specifications were used to create the solid works model.
+
+Hexapod robots have many advantages that they can leverage, these advantages include the fact that they can easily get and keep their equilibrium while moving, this is known as static stability. Hexapods also have the ability to adapt to irregular surfaces and the redundancy of legs allow for greater adaptation such as the ability to continue their task even if they lose a limb.Hexapod robots are also omnidirectional and are less affected by environmental conditions than robots with wheels, \cite{pullteap2013development} Thus when designing a Hexapod robot these key features should be considered. 
+
 
 \begin{figure}[h]
  \centering
@@ -234,39 +236,7 @@ The results of these calculations along with the information from the design spe
    \label{fig:Physical Model }
 \end{figure}
 
-The figure above depicts a hexapod developed with the core concepts above in mind. This hexapod robot is developed using PVC plastic. Using this mechanical model three core concepts were pulled for future use within the simulink model. The first is the structural safety factor determined from placing the mass of a third of the robot's weight (due to 3 legs up, 3 legs down) as a pressure upon a given test leg.The following table \ref{tab1} lists the design specifications of the solid works model
-
-\begin{table}[htbp]
-	\caption{Hexapod Dimensions}
-	\begin{center}
-		\begin{tabular}{|c|c|}
-			\hline  
-			Foot Mass & 20.18 g \\
-			\hline
-			Foot Length (L1) & 65.5 mm\\
-			\hline
-			Knee Mass (W1) & 57.54 g\\
-			\hline
-			Knee Length (L2) & 2 mm\\
-			\hline
-			Thigh Mass (W3) & 57.54 g\\
-			\hline
-			Arduino Mass (Warduino) & 47 g\\
-			\hline
-			Half Body Length (L3) & 79.72 mm\\
-			\hline
-			Full Body Mass (W4) & 598.06 g \\
-		 	\hline
-			
-			
-		\end{tabular}
-		\end{center}
-	\label{tab2}
-	
-\end{table}
-
-
-Creating a model in solid works allowed us to perform simulations to determine values that would normally be difficult to calculate by hand for such an oddly shaped device. Using the solid works simulation we were able to observe the stress-strain relationship of our mechanical design.
+The figure 1 depicts a hexapod developed with the core concepts above in mind. This hexapod robot is developed using PVC plastic. Using this mechanical model three core concepts were pulled for future use within the simulink model. The first is the structural safety factor determined from placing the mass of a third of the robot's weight (due to 3 legs up, 3 legs down) as a pressure upon a given test leg. 
 
 \begin{figure}[h]
  \centering
@@ -274,9 +244,8 @@ Creating a model in solid works allowed us to perform simulations to determine v
    \label{fig:Stress-Strain of Mechanical Design}
 \end{figure}
 
-
-
-From the figure above it is determined that the model is structurally sound and thus is within the clear to perform test upon. Next we move onto understanding the specifications of each link and how they interact with each other. The solids works tool was used to determine the weights and lengths of each link; these values were later recorded for future use. As well the solids work model was then used to determine the range of motion the motors would be able to achieve. While the inertias could be hand solved using the formula in the matrix.\\
+Creating a model in solid works allowed us to perform simulations to determine values that would normally be difficult to calculate by hand for such an oddly shaped device. Using the solid works simulation we were able to observe the stress-strain relationship of our mechanical design.
+From the figure 2 it is determined that the model is structurally sound and thus is within the clear to perform test upon. Next we move onto understanding the specifications of each link and how they interact with each other. The solids works tool was used to determine the weights and lengths of each link; these values were later recorded for future use. As well the solids work model was then used to determine the range of motion the motors would be able to achieve. While the inertias could be hand solved using the formula in the matrix.\\
 
 \begin{equation*}
 I_c = 
@@ -288,7 +257,48 @@ I_c =
 \end{bmatrix}
 \end{equation*}\\
 
-It was determined that a solid works model could be used to simplify inertias within the 3 sets of components.\\
+It was determined that a solid works model could be used to simplify inertias within the 3 sets of components, due to the fact that the above equation assumes a perfect world model where all links are perfect geometric shapes with center of masses near the center of geometry, however it is acknowledged that this is not reality thus the above equation is best used to check the results found in figure 3 and table 2.
+
+\begin{figure}[h]
+ \centering
+   \includegraphics[width = 0.49\textwidth]{figures/10.png}                \caption{Inertias and Mass of Leg Link}
+   \label{fig:Inertias and Mass of Leg Link}
+\end{figure}
+
+The following table \ref{tab2} lists the design specifications of the solid works model
+
+\begin{table}[htbp]
+	\caption{Hexapod Dimensions}
+	\begin{center}
+		\begin{tabular}{|c|c|}
+			\hline  
+			Foot Mass & 20.18 g \\
+			\hline
+			Foot Length (L1) & 65.5 mm\\
+			\hline
+			Foot Inertia (I1) & 4869.88\\
+			\hline
+			Knee Mass (W1) & 57.54 g\\
+			\hline
+			Knee Length (L2) & 2 mm\\
+			\hline
+			Foot Inertia (I1) & 58295.26\\
+			\hline
+			Thigh Mass (W3) & 57.54 g\\
+			\hline
+			Arduino Mass (Warduino) & 47 g\\
+			\hline
+			Half Body Length (L3) & 79.72 mm\\
+			\hline
+			Full Body Mass (W4) & 598.06 g \\
+		 	\hline
+			
+		\end{tabular}
+		\end{center}
+	\label{tab2}
+	
+\end{table}
+
 
 In order to understand the kinematic characteristics of a hexapod robot with arbitrary values imputed into link weights and link lengths we normally would use the Denavit-Hartenberg algorithm, applying it to a leg of the hexapod robot. Through the assumption that the model involved is a symmetrical structure composed of six identical legs, having three degrees of freedom in each leg we can thus assume due to symmetry that we only need to work on a single leg with a degree of freedom of 3 rather then the complete model with a degree of freedom of 18.
 
