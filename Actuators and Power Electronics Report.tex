@@ -77,12 +77,12 @@ Juilius.atherton@ontariotechu.net}
 \begin{abstract}
 %This document is to be used as a template model for your design project report. Included in the .tex file are comments and instructions on how the document is constructed. Please check the \LaTeX documentation available online for additional information. For your design report, the abstract should contain a concise summary of the document.
 
-This report presents the design, modelling, control, simulation and analysis of an electromechanical system known as a the hexapod using matlab simulink and solid works software. A modeling procedure is described together with analytical formulas to justify our design specifications for the design specifications of the hexapod  robot. Tables containing these specifications can also be found within this report. The results are based on the analysis of the simulation values obtained in matlab. Experimental results are provided for the a servo motor powered hexapod while analytical results are presented from the various force and torque calculations performed.
+This report presents the design, modelling, control, simulation and analysis of an electromechanical system known as the hexapod robot using matlab simulink and solid works software. A modelling procedure is described together with analytical formulas to justify our design specifications for the hexapod  robot. Tables containing these specifications can also be found within this report. The actuating device for this mechanism is the servo motor and its results are based on the analysis of the simulation values obtained in matlab. Experimental results are provided for the servo motor powered hexapod while analytical results are presented from the various force and torque calculations performed both in solid works and done by hand.
 \end{abstract}
 
 % You may have up to 5 keywords below. The keywords should reflect the key aspects of the document.
 \begin{IEEEkeywords}
-Hexapod, Servo, Torque
+Hexapod, Servo, Torque, Model
 \end{IEEEkeywords}
 
 
@@ -100,9 +100,8 @@ Hexapod, Servo, Torque
 \section{Introduction}
 %This document serves as a template and contains instructions for the design project. Please observe the page limits. Your introduction should provide the reader with any required background information. This section is used to prepare the audience with the questions you are going to answer.
 
-%The IEEEtran class file is used to format your paper and style the text. All margins, column widths, line spaces, and text fonts are already generated for you; please do not alter them. You may note peculiarities. For example, the head margin measures proportionately more than is customary. This measurement and others are deliberate, using specifications that anticipate your paper as one part of the entire proceedings, and not as an independent document. Please do not revise any of the current designations.
 
-Group 17 was given the task of designing, modeling, simulating and analyzing an electromechanical system that includes different aspects of actuators and power electronics. Our group chose the hexapod robot as our choice for the electromechanical system. A hexapod is a robot with parallel kinematic positioning systems consisting of six independent actuator controlled struts or simply put a mechanical vehicle which walks on six legs. Hexapods offer several advantages over other types of multi-legged  walking robots such as being able to maintain statically stable while in motion. A robot is considered to be statically stable when on three or more legs and due to the hexapods legs operating independently of each other it can still operate even when some of its legs become disabled. This combined with the fact that the hexapod acts on a single motion platform helps to eliminate the accumulation of guiding errors and increases precision. Furthermore it means that  the hexapod can use its additional legs to gain new foot placements or control a payload. Hexapods are the fastest moving robot with the optimum number of legs for movements as adding more legs does not increase speed. The Hexapod will use a servo motor as its actuating device in order to move the legs. A servo motor is a rotary actuator that allows for precise control of angular position, consisting of a motor coupled to a sensor for feedback, the feedback system increases accuracy and allows the motor to precisely control the rotary motion. Hexapods are useful for a variety of tasks particularly ones that can be dangerous for humans such as space exploration, undersea cable construction and rescue missions to name just few. 
+Group 17 was given the task of designing, modeling, simulating and analyzing an electromechanical system that includes different aspects of actuators and power electronics. Our group chose the hexapod robot as our choice for the electromechanical system. A hexapod is a robot with parallel kinematic positioning systems consisting of six independent actuator controlled struts or simply put a mechanical vehicle which walks on six legs. Hexapods offer several advantages over other types of multi-legged  walking robots such as being able to maintain statically stable while in motion. A robot is considered to be statically stable when on three or more legs and due to the hexapods legs operating independently of each other it can still operate even when some of its legs become disabled. This combined with the fact that the hexapod acts on a single motion platform helps to eliminate the accumulation of guiding errors and increases precision. Furthermore it means that  the hexapod can use its additional legs to gain new foot placements or control a payload. Hexapods are the fastest moving robot with the optimum number of legs for movements as adding more legs does not increase speed \cite{urrea2016design}. The Hexapod will use a servo motor as its actuating device in order to move the legs. A servo motor is a rotary actuator that allows for precise control of angular position, consisting of a motor coupled to a sensor for feedback, the feedback system increases accuracy and allows the motor to precisely control the rotary motion. Hexapods are useful for a variety of tasks particularly ones that can be dangerous for humans such as space exploration, undersea cable construction and rescue missions to name just few. 
 
 
 
@@ -127,7 +126,7 @@ Group 17 was given the task of designing, modeling, simulating and analyzing an 
 	
 	\item Design must be statically stable
 	
-	\item Must maintain dynamic stability when carrying a specified load
+	\item Must maintain dynamic stability when under pressure from a specified load
 	
 	\item Modelling and simulation of hexapod robot in matlab.
 	
@@ -227,7 +226,7 @@ Three motors were chosen per leg as it allows better actuation of the leg than t
 
 \subsection{Solidworks Model}
 
-Hexapod robots have many advantages that they can leverage, these advantages include the fact that they can easily get and keep their equilibrium while moving, this is known as static stability. Hexapods also have the ability to adapt to irregular surfaces and the redundancy of legs allow for greater adaptation such as the ability to continue their task even if they lose a limb.Hexapod robots are also omnidirectional and are less affected by environmental conditions than robots with wheels, \cite{pullteap2013development} Thus when designing a Hexapod robot these key features should be considered. 
+Hexapod robots have many advantages that they can leverage, these advantages include the fact that they can easily acquire and maintain their equilibrium while moving, this is known as static stability. Hexapods also have the ability to adapt to irregular surfaces and the redundancy of legs allow for greater adaptation such as the ability to continue their task even if they lose a limb. Hexapod robots are also omnidirectional and are less affected by environmental conditions than robots with wheels, \cite{pullteap2013development} Thus when designing a Hexapod robot these key features should be considered. 
 
 
 \begin{figure}[h]
@@ -304,7 +303,7 @@ In order to understand the kinematic characteristics of a hexapod robot with arb
 
 
 
-\subsection{Diagrams}
+\subsection{Assumptions and Equations}
 Before calculations for the final design could take place several assumptions regarding the forces and torques of the hexapod had to be taken into consideration. These can be seen in figures \ref{fig: Diagram 1} and \ref{fig: Diagram 2} along with the hexapod diagrams and variables needed for  the final design.
 
 
@@ -318,7 +317,7 @@ Before calculations for the final design could take place several assumptions re
 
 
 
-\subsection{Assumptions and Equations}
+
 
 The problem of obtaining a robot’s dynamic model is one of the more complex aspects in the field of robotics, and it is necessary for achieving the following objectives: design and evaluation of robot’s dynamic control, sizing of actuators, evaluation of the robot’s mechanical structure, and motion simulation of the robot design.  
  \cite{pullteap2013development}.
@@ -489,7 +488,7 @@ W_x = W \sin \beta
 %You can reference the equations above in your document by using their defined label, [\ref{eq: TransientCurrent}] and [\ref{eq: SteadyStateCurrent}]. Steady-state: $I_0= i_0(\omega t =0) = i_0(\omega t = \pi)$. Individual variables can also be called, such as $\omega_0$. 
 
 \subsection{Electromechanical Model in Simulink}
-Once the necessaey calculations an physical modelling had been complete the project continued with the design of the Electromechanical model using simulink simulation software.\\
+Once the necessary calculations an physical modelling had been complete the project continued with the design of the Electromechanical model using simulink simulation software.\\
 
 Before the models construction,research had first been conducted on various servo motors and their performance as well as subsequent electro mechanical models. Figures \ref{fig:Model of DC motor with external load coupled by gears} and \ref{fig:Model Showing Load Effect on motor} represent the load effects on the system .\\
 
@@ -535,25 +534,6 @@ The model of the servo motor in figure \ref{fig:Electromechanical Model} uses a 
 
 
 
-
-
-%Figure Labels: Use words rather than symbols or abbreviations when writing Figure axis labels to avoid confusing the reader. As an example, write the quantity ``Magnetization'', or ``Magnetization, M'', not just ``M''. If including units in the label, present them within parentheses. Do not label axes only with units. In the example, write ``Magnetization (A/m)'' or ``Magnetization \{A[m(1)]\}'', not just ``A/m''. Do not label axes with a ratio of quantities and units. For example, write ``Temperature (K)'', not ``Temperature/K''. See examples Fig. \ref{fig:mySampleFigure} and Fig. \ref{fig:myOtherSampleFigure} in this document.
-
-%All figures should be clearly explained in the text. Furthermore, all figures should have a purpose, do not include irrelevant or redundant images. Doing so will only make the document more cluttered.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 %% --------------------------------   Sub: References  --------------------------------
 % You do not need to individually number your citations, for example typing [1]. Make use of the \cite command. 
 % Your citations will be automatically numbered when using \cite. This also makes constructing your bibliography later easier.
@@ -565,7 +545,7 @@ The model of the servo motor in figure \ref{fig:Electromechanical Model} uses a 
 \section{Conclusion and Discussion}
 %/The conclusion should be used to address the success of your design. Answer and discuss if your design met the requirements, had good performance, etc. If applicable, suggest future improvements or applications of the design.
 
-Upon the completion of this project an understanding of electromechanical system control specifically with hexapods was developed. The design was successfully able to implement its desired functions, being able to remain statically on four or more legs and capable of withstanding any stress and strain being placed on the mechanism. The electromechanical simulation of the servo motor simulation calculated a response time of 0.177 seconds, within this time the servo rotates 60 degrees with an average overshoot of 3 Percent. The design manual however had a response time of 0.120 seconds for the servo motor, making this an area for improvement. Other potential improvements to our design included further improvement to the static stability of the device so that it could operate more efficiently and effectively when several of its legs have been disabled. We would also like to fully test our design using inverse kinematics for  pinpoint positioning of the leg. Furthermore, the addition of an  actuation motor and sensors to understand how incline affects the hexapod and include multiple stages as well as having the legs programmed separately in order to make it easier for the robot to walk up stairs. A final improvement would be to redesign the model so that all the legs are actuated, allowing for the hexapod to perform jumps when stuck in difficult walking
+Upon the completion of this project an understanding of electromechanical system control specifically with hexapods was developed. The design was successfully able to implement its desired functions, being able to remain statically on four or more legs and capable of withstanding any stress and strain being placed on the mechanism. The electromechanical simulation of the servo motor simulation calculated a response time of 0.177 seconds, within this time the servo rotates 60 degrees with an average overshoot of 3 Percent. The design manual however had a response time of 0.120 seconds for the servo motor, making this an area for improvement. Other potential improvements to our design included the ability to fully test our design using inverse kinematics for  pinpoint positioning of the leg. Furthermore, the addition of an  actuation motor and sensors to understand how incline affects the hexapod and include multiple stages as well as having the legs programmed separately in order to make it easier for the robot to walk up stairs. A final improvement would be to redesign the model so that all the legs are actuated, allowing for the hexapod to perform jumps when stuck in difficult walking situations.
 
 
 % Construct references section.
