@@ -314,6 +314,7 @@ INPUT D:\ProgramFiles\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT D:\ProgramFiles\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
 INPUT D:\ProgramFiles\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm5.tfm
 INPUT D:\ProgramFiles\MiKTeX\fonts\tfm\adobe\times\ptmrc7t.tfm
+INPUT D:\ProgramFiles\MiKTeX\fonts\tfm\adobe\times\ptmbc7t.tfm
 INPUT D:\ProgramFiles\MiKTeX\fonts\tfm\public\cm\cmr8.tfm
 INPUT D:\ProgramFiles\MiKTeX\fonts\tfm\public\cm\cmr6.tfm
 INPUT D:\ProgramFiles\MiKTeX\fonts\tfm\public\cm\cmmi8.tfm
@@ -345,6 +346,9 @@ INPUT D:\ProgramFiles\MiKTeX\fonts\tfm\adobe\times\ptmri8r.tfm
 INPUT D:\ProgramFiles\MiKTeX\fonts\vf\adobe\times\ptmr7t.vf
 INPUT D:\ProgramFiles\MiKTeX\fonts\vf\adobe\times\ptmrc7t.vf
 INPUT D:\ProgramFiles\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
+INPUT D:\ProgramFiles\MiKTeX\fonts\vf\adobe\times\ptmbc7t.vf
+INPUT D:\ProgramFiles\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
+INPUT D:\ProgramFiles\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
 INPUT .\figures\3.png
 INPUT .\figures\3.png
 INPUT figures\3.png
@@ -366,6 +370,8 @@ INPUT .\figures\10.png
 INPUT .\figures\10.png
 INPUT .\figures\10.png
 INPUT .\figures\10.png
+INPUT D:\ProgramFiles\MiKTeX\fonts\vf\adobe\times\ptmb7t.vf
+INPUT D:\ProgramFiles\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
 INPUT .\figures\11.png
 INPUT .\figures\11.png
 INPUT figures\11.png
@@ -401,8 +407,6 @@ INPUT .\figures\13.png
 INPUT .\figures\13.png
 INPUT .\figures\13.png
 INPUT .\figures\13.png
-INPUT D:\ProgramFiles\MiKTeX\fonts\vf\adobe\times\ptmb7t.vf
-INPUT D:\ProgramFiles\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
 INPUT .\figures\5.png
 INPUT .\figures\5.png
 INPUT figures\5.png

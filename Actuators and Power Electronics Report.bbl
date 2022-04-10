@@ -33,6 +33,19 @@ C.~Urrea, L.~Valenzuela, and J.~Kern, ``Design, simulation, and control of a
   hexapod robot in simscape multibody,'' \emph{Applications from Engineering
   with MATLAB Concepts}, pp. 126--137, 2016.
 
+\bibitem{Barai2013SMARTHexBotAS}
+R.~K. Barai, P.~Saha, and A.~Mandal, ``Smart-hexbot: a simulation, modeling,
+  analysis and research tool for hexapod robot in virtual reality and
+  simulink,'' in \emph{AIR '13}, 2013.
+
+\bibitem{10.3389/fnbot.2021.627157}
+\BIBentryALTinterwordspacing
+W.~Ouyang, H.~Chi, J.~Pang, W.~Liang, and Q.~Ren, ``Adaptive locomotion control
+  of a hexapod robot via bio-inspired learning,'' \emph{Frontiers in
+  Neurorobotics}, vol.~15, 2021. [Online]. Available:
+  \url{https://www.frontiersin.org/article/10.3389/fnbot.2021.627157%7D}
+\BIBentrySTDinterwordspacing
+
 \bibitem{LYNCH2016427}
 \BIBentryALTinterwordspacing
 K.~M. Lynch, N.~Marchuk, and M.~L. Elwin, ``Chapter 26 - gearing and motor
