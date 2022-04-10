@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.4.3)  9 APR 2022 22:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.4.3)  9 APR 2022 23:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -273,17 +273,10 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 LaTeX Font Info:    Trying to load font information for U+msb on input line 147.
  (D:\ProgramFiles\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-
-LaTeX Warning: Citation `pro' on page 1 undefined on input line 155.
-
-[1{C:/Users/aidan/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}
+) [1{C:/Users/aidan/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}
 
 
 ]
-
-LaTeX Warning: Citation `pullteap2013development' on page 2 undefined on input line 230.
-
 <figures/3.png, id=10, 991.45406pt x 757.32938pt>
 File: figures/3.png Graphic file (type png)
 <use figures/3.png>
@@ -328,13 +321,6 @@ File: figures/11.png Graphic file (type png)
 <use figures/11.png>
 Package pdftex.def Info: figures/11.png  used on input line 314.
 (pdftex.def)             Requested size: 232.19843pt x 183.52103pt.
-
-
-LaTeX Warning: Citation `pullteap2013development' on page 3 undefined on input line 316.
-
-
-LaTeX Warning: Citation `pullteap2013development' on page 3 undefined on input line 324.
-
 <figures/12.png, id=26, 502.12593pt x 145.29282pt>
 File: figures/12.png Graphic file (type png)
 <use figures/12.png>
@@ -357,13 +343,6 @@ File: figures/2.png Graphic file (type png)
 Package pdftex.def Info: figures/2.png  used on input line 384.
 (pdftex.def)             Requested size: 232.19843pt x 117.10002pt.
 
-
-LaTeX Warning: Citation `urrea2016design' on page 4 undefined on input line 399.
-
-
-LaTeX Warning: Citation `Barai2013SMARTHexBotAS' on page 4 undefined on input line 410.
-
-
 Overfull \hbox (28.53595pt too wide) detected at line 419
  []$[]  \OML/cmm/m/it/10 ^^\[] \OT1/cmr/m/n/10 = [] \OMS/cmsy/m/n/10 ^^A \OT1/cmr/m/n/10 (\OML/cmm/m/it/10 I[] \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 I[] \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 Ml[] \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 m[]r[]\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 g\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 l[]cos\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 ^^R[] \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 ^^R[]\OT1/cmr/m/n/10 )(3\OML/cmm/m/it/10 M \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 m[] \OT1/cmr/m/n/10 + [])$ 
  []
@@ -378,12 +357,6 @@ File: figures/13.png Graphic file (type png)
 <use figures/13.png>
 Package pdftex.def Info: figures/13.png  used on input line 454.
 (pdftex.def)             Requested size: 232.19843pt x 106.19171pt.
-
-LaTeX Warning: Citation `10.3389/fnbot.2021.627157' on page 4 undefined on input line 456.
-
-
-LaTeX Warning: Citation `LYNCH2016427' on page 4 undefined on input line 463.
-
 [4 <./figures/2.png> <./figures/13.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 492--493
 
@@ -414,9 +387,6 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 504--504
  [][] 
  []
 
-
-LaTeX Warning: Citation `article' on page 5 undefined on input line 507.
-
 <figures/14.png, id=44, 1260.71pt x 327.2225pt>
 File: figures/14.png Graphic file (type png)
 <use figures/14.png>
@@ -432,19 +402,12 @@ File: figures/16.png Graphic file (type png)
 <use figures/16.png>
 Package pdftex.def Info: figures/16.png  used on input line 530.
 (pdftex.def)             Requested size: 232.19843pt x 113.17903pt.
-[5 <./figures/5.png> <./figures/6.png> <./figures/14.png> <./figures/15.png> <./figures/16.png>] (Actuators and Power Electronics Report.bbl)
-Runaway argument?
-{https://www.frontiersin.org/article/10.3389/fnbot.2021.627157\BIBentrySTDinterwordspacing \ETC.
-d:/UOIT/year3/semester2/ActuatorsAndPowerElectronics/Project/powerElectronicsHexopodRobotResearchReport/Actuators and Power Electronics Report.tex:573: File ended while scanning use of \url.
-<inserted text> 
-                \par 
-l.573 \bibliography{myWorksCited}
-                                 
-I suspect you have forgotten a `}', causing me
-to read past where you wanted me to stop.
-I'll try to recover; but if the error is serious,
-you'd better type `E' or `X' now and fix your file.
+[5 <./figures/5.png> <./figures/6.png> <./figures/14.png> <./figures/15.png> <./figures/16.png>] (Actuators and Power Electronics Report.bbl
+Overfull \hbox (3.1175pt too wide) in paragraph at lines 48--54
+\OT1/ptm/m/n/8 https://www.sciencedirect.com/science/article/pii/B9780124201651000263 
+ []
 
+)
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -456,43 +419,19 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-
-d:/UOIT/year3/semester2/ActuatorsAndPowerElectronics/Project/powerElectronicsHexopodRobotResearchReport/Actuators and Power Electronics Report.tex:578: LaTeX Error: \begin{thebibliography} on input line 2 ended by \end{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.578 \end{document}
-                    
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
 [6
 
-] (Actuators and Power Electronics Report.aux)
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- )
-(\end occurred inside a group at level 1)
-
-### semi simple group (level 1) entered at line 2 (\begingroup)
-### bottom level 
+] (Actuators and Power Electronics Report.aux) ) 
 Here is how much of TeX's memory you used:
- 4354 strings out of 478582
- 68943 string characters out of 2854663
- 377015 words of memory out of 3000000
- 22482 multiletter control sequences out of 15000+600000
- 510265 words of font info for 103 fonts, out of 8000000 for 9000
+ 4349 strings out of 478582
+ 68904 string characters out of 2854663
+ 377036 words of memory out of 3000000
+ 22481 multiletter control sequences out of 15000+600000
+ 506285 words of font info for 99 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,8n,62p,1880b,286s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 55i,8n,62p,1880b,255s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {D:/ProgramFiles/MiKTeX/fonts/enc/dvips/base/8r.enc}<D:/ProgramFiles/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><D:/ProgramFiles/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/ProgramFiles/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><D:/ProgramFiles/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/ProgramFiles/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><D:/ProgramFiles/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/ProgramFiles/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><D:/ProgramFiles/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><D:/ProgramFiles/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><D:/ProgramFiles/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><D:/ProgramFiles/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on "Actuators and Power Electronics Report.pdf" (6 pages, 3586400 bytes).
+Output written on "Actuators and Power Electronics Report.pdf" (6 pages, 3586213 bytes).
 PDF statistics:
  104 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

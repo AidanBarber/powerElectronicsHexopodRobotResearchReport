@@ -1,20 +1,19 @@
 # Fdb version 3
-["bibtex Actuators and Power Electronics Report"] 1649556661 "Actuators and Power Electronics Report.aux" "Actuators and Power Electronics Report.bbl" "Actuators and Power Electronics Report" 1649556661
+["bibtex Actuators and Power Electronics Report"] 1649562529 "Actuators and Power Electronics Report.aux" "Actuators and Power Electronics Report.bbl" "Actuators and Power Electronics Report" 1649562533
   "./IEEEtran.bst" 1649535036 60155 fdf5358926cadba85025b0e8f2006858 ""
-  "Actuators and Power Electronics Report.aux" 1649556659 5394 4d429eb895354f8ea90927be96479ce8 "pdflatex"
-  "myWorksCited.bib" 1649556626 2745 6063d7028da99d0c75ad1079310bfdda ""
+  "Actuators and Power Electronics Report.aux" 1649562532 5682 2f9e5d8d33750f2662b32976845b8094 "pdflatex"
+  "myWorksCited.bib" 1649562523 2672 d7d168b21a271c04267a446c5660b1bc ""
   (generated)
   "Actuators and Power Electronics Report.bbl"
   "Actuators and Power Electronics Report.blg"
-["pdflatex"] 1649556661 "d:/UOIT/year3/semester2/ActuatorsAndPowerElectronics/Project/powerElectronicsHexopodRobotResearchReport/Actuators and Power Electronics Report.tex" "Actuators and Power Electronics Report.pdf" "Actuators and Power Electronics Report" 1649556661
-  "Actuators and Power Electronics Report.aux" 1649556659 5394 4d429eb895354f8ea90927be96479ce8 "pdflatex"
-  "Actuators and Power Electronics Report.bbl" 1649556661 2601 399d5ffd417dd677f24bbc257c6324e5 "bibtex Actuators and Power Electronics Report"
+["pdflatex"] 1649562529 "d:/UOIT/year3/semester2/ActuatorsAndPowerElectronics/Project/powerElectronicsHexopodRobotResearchReport/Actuators and Power Electronics Report.tex" "Actuators and Power Electronics Report.pdf" "Actuators and Power Electronics Report" 1649562533
+  "Actuators and Power Electronics Report.aux" 1649562532 5682 2f9e5d8d33750f2662b32976845b8094 "pdflatex"
+  "Actuators and Power Electronics Report.bbl" 1649562529 2446 f169e8b971fc23388848d33dfa6d9c7b "bibtex Actuators and Power Electronics Report"
   "C:/Users/aidan/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1649007459 82507 a9eef8696c92627b87e9975edea03b2a ""
   "C:/Users/aidan/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1649011396 10236642 7cc9b4043a1f126da438fd45512b3e57 ""
   "D:/ProgramFiles/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 1194fb36dfcb11d9ae9802f2b00b60a3 ""
   "D:/ProgramFiles/MiKTeX/fonts/tfm/adobe/times/ptmb7t.tfm" 1136790254 2172 fd0c924230362ff848a33632ed45dc23 ""
   "D:/ProgramFiles/MiKTeX/fonts/tfm/adobe/times/ptmb8r.tfm" 1136790254 4524 6bce29db5bc272ba5f332261583fee9c ""
-  "D:/ProgramFiles/MiKTeX/fonts/tfm/adobe/times/ptmbc7t.tfm" 1136790254 2732 3862f0304d4d7c3718523e7d6fd950ad ""
   "D:/ProgramFiles/MiKTeX/fonts/tfm/adobe/times/ptmbi7t.tfm" 1136790254 2228 e564491c42a4540b5ebb710a75ff306c ""
   "D:/ProgramFiles/MiKTeX/fonts/tfm/adobe/times/ptmbi8r.tfm" 1136790254 4480 10409ed8bab5aea9ec9a78028b763919 ""
   "D:/ProgramFiles/MiKTeX/fonts/tfm/adobe/times/ptmr7t.tfm" 1136790254 2124 2601a75482e9426d33db523edf23570a ""
@@ -48,7 +47,6 @@
   "D:/ProgramFiles/MiKTeX/fonts/type1/urw/times/utmr8a.pfb" 1136871348 46026 6dab18b61c907687b520c72847215a68 ""
   "D:/ProgramFiles/MiKTeX/fonts/type1/urw/times/utmri8a.pfb" 1136871348 45458 a3faba884469519614ca56ba5f6b1de1 ""
   "D:/ProgramFiles/MiKTeX/fonts/vf/adobe/times/ptmb7t.vf" 1136790254 1372 788387fea833ef5963f4c5bffe33eb89 ""
-  "D:/ProgramFiles/MiKTeX/fonts/vf/adobe/times/ptmbc7t.vf" 1136790254 1948 09614867cfee727c370daa115b7f3542 ""
   "D:/ProgramFiles/MiKTeX/fonts/vf/adobe/times/ptmbi7t.vf" 1136790254 1384 6ac0f8b839230f5d9389287365b243c0 ""
   "D:/ProgramFiles/MiKTeX/fonts/vf/adobe/times/ptmr7t.vf" 1136790254 1380 0ea3a3370054be6da6acd929ec569f06 ""
   "D:/ProgramFiles/MiKTeX/fonts/vf/adobe/times/ptmrc7t.vf" 1136790254 1948 7330aeef3af211edff3b35fb2c12a0fd ""
