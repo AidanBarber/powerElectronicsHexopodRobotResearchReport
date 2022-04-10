@@ -102,7 +102,7 @@ Hexapod, Servo, Torque
 
 %The IEEEtran class file is used to format your paper and style the text. All margins, column widths, line spaces, and text fonts are already generated for you; please do not alter them. You may note peculiarities. For example, the head margin measures proportionately more than is customary. This measurement and others are deliberate, using specifications that anticipate your paper as one part of the entire proceedings, and not as an independent document. Please do not revise any of the current designations.
 
-Group 17 was given the task of designing, modeling, simulating and analysing an electromechanical system that includes different aspects of actuators and power electronics. Our group chose the hexapod robot as our choice for the electromechanical system. A hexapod is a robot with parallel kinematic positioning systems consisting of six independent actuator controlled struts or simply put a mechanical vehicle which walks on six legs. Hexapods offer several advantages over other types of multi-legged  walking robots such as being able to maintain statically stable while in motion. A robot is considered to be statically stable when on three or more legs and due to the hexapods legs operating independently of each other it can still operate even when some of its legs become disabled. This combined with the fact that the hexapod acts on a single motion platform helps to eliminate the accumulation of guiding errors and increases precision. Furthermore it means that  the hexapod can use its additional legs to gain new foot placements or control a payload. Hexapods are the fastest moving robot with the optimum number of legs for movements as adding more legs does not increase speed. The Hexapod will use a servo motor as its actuating device in order to move the legs. A servo motor is a rotary actuator that allows for precise control of angular position, consisting of a motor coupled to a sensor for feedback, the feedback system increases accuracy and allows the motor to precisely control the rotary motion. The servo motor was selected instead of a stepper because of it's high rate of efficiency, power and torque compared to the stepper, additionally the stepper motor produces  high amount of heat when in operation which can lead to issues with the circuitry in the long run. Hexapods are useful for a variety of tasks particularly ones that can be dangerous for humans such as space exploration, undersea cable construction and rescue missions to name just few. 
+Group 17 was given the task of designing, modeling, simulating and analyzing an electromechanical system that includes different aspects of actuators and power electronics. Our group chose the hexapod robot as our choice for the electromechanical system. A hexapod is a robot with parallel kinematic positioning systems consisting of six independent actuator controlled struts or simply put a mechanical vehicle which walks on six legs. Hexapods offer several advantages over other types of multi-legged  walking robots such as being able to maintain statically stable while in motion. A robot is considered to be statically stable when on three or more legs and due to the hexapods legs operating independently of each other it can still operate even when some of its legs become disabled. This combined with the fact that the hexapod acts on a single motion platform helps to eliminate the accumulation of guiding errors and increases precision. Furthermore it means that  the hexapod can use its additional legs to gain new foot placements or control a payload. Hexapods are the fastest moving robot with the optimum number of legs for movements as adding more legs does not increase speed. The Hexapod will use a servo motor as its actuating device in order to move the legs. A servo motor is a rotary actuator that allows for precise control of angular position, consisting of a motor coupled to a sensor for feedback, the feedback system increases accuracy and allows the motor to precisely control the rotary motion. Hexapods are useful for a variety of tasks particularly ones that can be dangerous for humans such as space exploration, undersea cable construction and rescue missions to name just few. 
 
 
 
@@ -147,16 +147,16 @@ In this subsection, break the problem description down into the fundamental requ
 	\item Robot is a hexapod therefore it should move on six legs
 	\item In order to maintain static stability the robot should be capable of maintaining motion even when up to 3 of its legs have been disabled.
 	\item Robot will use a servo motor as its actuating device.
-	\item Servo motor will meet the following specifications:
+	\item Servo motor will meet the following specifications of Table \ref{tab1}
 	\end{itemize}
 
 	
 \begin{table}[htbp]
-	\caption{Servo Motor Specifications}
+	\caption{Servo Motor Specifications \cite{pro}}
 	\begin{center}
 		\begin{tabular}{|c|c|}
 			\hline  
-			Frame Size & 22.2 x 11.8 x 31 mm \\
+			Frame Size & 22.2 x 11.8 x 31 mm  \\
 			\hline
 			Modulation & Analog \\
 			\hline
@@ -192,8 +192,8 @@ In this subsection, break the problem description down into the fundamental requ
 		\end{tabular}
 		\end{center}
 	\label{tab1}
-	
 \end{table}
+
 
 
 
@@ -220,12 +220,12 @@ In this subsection, break the problem description down into the fundamental requ
 %% -------------------------   Sub: Equations, Figures and Tables  -------------------------
 \subsection{Design Decisions}
 \subsubsection{Motor Choice}
-A servo motor was chosen as it allows closed loop control over the the motor allowing for very precise control with any unexpected movements being able to be accounted for. The servo is also faster, and provides more torque per size than a stepper motor does. The benefit of a stepper motor over a servo is that it does not have a limited range of movement like a servo does, however this is not a problem for us as we only need a maximum of 90 degrees of rotation from our motor leaving the servo motor as the clear choice.
+A servo motor was chosen as it has a high rate of efficiency, allows closed loop control over the the motor allowing for very precise control with any unexpected movements being able to be accounted for. The servo is also faster, and provides more torque per size than a stepper motor does. Additionally the stepper motor produces  high amount of heat when in operation which can lead to issues with the circuitry in the long run. The benefit of a stepper motor over a servo is that it does not have a limited range of movement like a servo does, however this is not a problem for us as we only need a maximum of 90 degrees of rotation from our motor leaving the servo motor as the clear choice.
 
 \subsubsection{Motors Per Leg}
 Three motors were chosen per leg as it allows better actuation of the leg than two. By doing this we allow the leg to essentially grab the ground and provide more grip when reaching for new locations
 
-\subsection{Solid works Model}
+\subsection{Solidworks Model}
 
 Hexapod robots have many advantages that they can leverage, these advantages include the fact that they can easily get and keep their equilibrium while moving, this is known as static stability. Hexapods also have the ability to adapt to irregular surfaces and the redundancy of legs allow for greater adaptation such as the ability to continue their task even if they lose a limb.Hexapod robots are also omnidirectional and are less affected by environmental conditions than robots with wheels, \cite{pullteap2013development} Thus when designing a Hexapod robot these key features should be considered. 
 
@@ -305,7 +305,7 @@ In order to understand the kinematic characteristics of a hexapod robot with arb
 
 
 \subsection{Diagrams}
-Before calculations for the final design could take place several assumptions regarding the forces and torques of the hexapod had to be taken into consideration. These can be seen in figures \ref{fig: Diagram 1} and \ref{fig:Diagram 2} along with the hexapod diagrams and variables needed for  the final design.
+Before calculations for the final design could take place several assumptions regarding the forces and torques of the hexapod had to be taken into consideration. These can be seen in figures \ref{fig: Diagram 1} and \ref{fig: Diagram 2} along with the hexapod diagrams and variables needed for  the final design.
 
 
 \begin{figure}[h]
@@ -460,7 +460,7 @@ When observing the complexity of obtained expressions, it becomes evident that t
 
 
 
-The motor inertia was found using the formula  [\ref{eq: Motor Inertia}]
+The motor inertia was found using the formula \ref{eq: Motor Inertia} which was found in paper \cite{LYNCH2016427}
 \begin{equation} \label{eq: Motor Inertia}
 	J_{motor} = \frac{J_{load}}{n^2}
 \end{equation}

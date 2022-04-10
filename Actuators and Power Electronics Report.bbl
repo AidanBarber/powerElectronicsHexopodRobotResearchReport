@@ -21,6 +21,27 @@
 \providecommand{\BIBdecl}{\relax}
 \BIBdecl
 
+\bibitem{pro}
+T.~Pro, ``Sg90 datasheet, equivalent, micro servo.'' \emph{SG90 Servo Datasheet
+  pdf - Micro Servo. Equivalent, Catalog}.
+
+\bibitem{pullteap2013development}
+S.~Pullteap, ``Development of a hexapod ro logic cont,'' 2013.
+
+\bibitem{urrea2016design}
+C.~Urrea, L.~Valenzuela, and J.~Kern, ``Design, simulation, and control of a
+  hexapod robot in simscape multibody,'' \emph{Applications from Engineering
+  with MATLAB Concepts}, pp. 126--137, 2016.
+
+\bibitem{LYNCH2016427}
+\BIBentryALTinterwordspacing
+K.~M. Lynch, N.~Marchuk, and M.~L. Elwin, ``Chapter 26 - gearing and motor
+  sizing,'' in \emph{Embedded Computing and Mechatronics with the PIC32}, K.~M.
+  Lynch, N.~Marchuk, and M.~L. Elwin, Eds.\hskip 1em plus 0.5em minus
+  0.4em\relax Oxford: Newnes, 2016, pp. 427--437. [Online]. Available:
+  \url{https://www.sciencedirect.com/science/article/pii/B9780124201651000263}
+\BIBentrySTDinterwordspacing
+
 \bibitem{article}
 C.~Urrea and J.~Kern, ``A new model for analog servo motors. simulations and
   experimental results,'' vol.~2, pp. 29--38, 03 2011.
