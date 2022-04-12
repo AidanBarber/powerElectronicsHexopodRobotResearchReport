@@ -21,17 +21,17 @@
 \providecommand{\BIBdecl}{\relax}
 \BIBdecl
 
+\bibitem{urrea2016design}
+C.~Urrea, L.~Valenzuela, and J.~Kern, ``Design, simulation, and control of a
+  hexapod robot in simscape multibody,'' \emph{Applications from Engineering
+  with MATLAB Concepts}, pp. 126--137, 2016.
+
 \bibitem{pro}
 T.~Pro, ``Sg90 datasheet, equivalent, micro servo.'' \emph{SG90 Servo Datasheet
   pdf - Micro Servo. Equivalent, Catalog}.
 
 \bibitem{pullteap2013development}
 S.~Pullteap, ``Development of a hexapod ro logic cont,'' 2013.
-
-\bibitem{urrea2016design}
-C.~Urrea, L.~Valenzuela, and J.~Kern, ``Design, simulation, and control of a
-  hexapod robot in simscape multibody,'' \emph{Applications from Engineering
-  with MATLAB Concepts}, pp. 126--137, 2016.
 
 \bibitem{Barai2013SMARTHexBotAS}
 R.~K. Barai, P.~Saha, and A.~Mandal, ``Smart-hexbot: a simulation, modeling,

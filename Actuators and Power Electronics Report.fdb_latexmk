@@ -1,14 +1,15 @@
 # Fdb version 3
-["bibtex Actuators and Power Electronics Report"] 1649562529 "Actuators and Power Electronics Report.aux" "Actuators and Power Electronics Report.bbl" "Actuators and Power Electronics Report" 1649562533
+["bibtex Actuators and Power Electronics Report"] 1649777716 "Actuators and Power Electronics Report.aux" "Actuators and Power Electronics Report.bbl" "Actuators and Power Electronics Report" 1649777764
   "./IEEEtran.bst" 1649535036 60155 fdf5358926cadba85025b0e8f2006858 ""
-  "Actuators and Power Electronics Report.aux" 1649562532 5682 2f9e5d8d33750f2662b32976845b8094 "pdflatex"
+  "Actuators and Power Electronics Report.aux" 1649777764 5840 f3d691d0f43d9a3ec102bf00c6dfd0fe "pdflatex"
   "myWorksCited.bib" 1649562523 2672 d7d168b21a271c04267a446c5660b1bc ""
   (generated)
   "Actuators and Power Electronics Report.bbl"
   "Actuators and Power Electronics Report.blg"
-["pdflatex"] 1649562529 "d:/UOIT/year3/semester2/ActuatorsAndPowerElectronics/Project/powerElectronicsHexopodRobotResearchReport/Actuators and Power Electronics Report.tex" "Actuators and Power Electronics Report.pdf" "Actuators and Power Electronics Report" 1649562533
-  "Actuators and Power Electronics Report.aux" 1649562532 5682 2f9e5d8d33750f2662b32976845b8094 "pdflatex"
-  "Actuators and Power Electronics Report.bbl" 1649562529 2446 f169e8b971fc23388848d33dfa6d9c7b "bibtex Actuators and Power Electronics Report"
+["pdflatex"] 1649777760 "d:/UOIT/year3/semester2/ActuatorsAndPowerElectronics/Project/powerElectronicsHexopodRobotResearchReport/Actuators and Power Electronics Report.tex" "Actuators and Power Electronics Report.pdf" "Actuators and Power Electronics Report" 1649777765
+  "Actuators and Power Electronics Report.aux" 1649777764 5840 f3d691d0f43d9a3ec102bf00c6dfd0fe "pdflatex"
+  "Actuators and Power Electronics Report.bbl" 1649777716 2446 8dc7ed937470152605bbfd23a6431074 "bibtex Actuators and Power Electronics Report"
+  "Actuators and Power Electronics Report.tex" 1649777758 28343 ff366587ecac2c4f61046bf2e137b659 ""
   "C:/Users/aidan/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1649007459 82507 a9eef8696c92627b87e9975edea03b2a ""
   "C:/Users/aidan/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1649011396 10236642 7cc9b4043a1f126da438fd45512b3e57 ""
   "D:/ProgramFiles/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 1194fb36dfcb11d9ae9802f2b00b60a3 ""
@@ -79,15 +80,16 @@
   "D:/ProgramFiles/MiKTeX/tex/latex/l3backend/l3backend-pdftex.def" 1644215060 29921 d0acc05a38bd4aa3af2017f0b7c137ce ""
   "D:/ProgramFiles/MiKTeX/tex/latex/psnfss/ot1ptm.fd" 1585253778 1007 39eda417ef5837ce5e38661cfad2cedf ""
   "D:/ProgramFiles/MiKTeX/tex/latex/xcolor/xcolor.sty" 1636284872 56029 3f7889dab51d620aa43177c391b7b190 ""
-  "d:/UOIT/year3/semester2/ActuatorsAndPowerElectronics/Project/powerElectronicsHexopodRobotResearchReport/Actuators and Power Electronics Report.tex" 1649556315 29163 e360b17a40efc38755b6d47f095f816e ""
+  "d:/UOIT/year3/semester2/ActuatorsAndPowerElectronics/Project/powerElectronicsHexopodRobotResearchReport/Actuators and Power Electronics Report.tex" 1649777758 28343 ff366587ecac2c4f61046bf2e137b659 ""
   "figures/1.png" 1649516603 162369 fd701ed967cc91ffde0f9256947076e2 ""
   "figures/10.png" 1649544288 239785 358a4b761071eaf29e450216a43b0262 ""
   "figures/11.png" 1649551608 464628 aa2e54faa224e4b077b2fee0b5e447d1 ""
   "figures/12.png" 1649551608 43301 a81219579d35f86a9150b3c8c88c3a94 ""
   "figures/13.png" 1649551608 820223 4225ede32b6336c08447cb28764c869d ""
-  "figures/14.png" 1649551608 45208 38d09d9a5720f8f0b269b2b45d6c76ea ""
+  "figures/14.png" 1649777344 48770 c6557fda8c5c84871ebda7a184e7d48e ""
   "figures/15.png" 1649551608 12181 a41f66aaf091eefcf39b15e95fd9a4da ""
   "figures/16.png" 1649551608 13885 3f14933e62f046d14d2a040f57cf8627 ""
+  "figures/17.png" 1649777427 40741 f00b8157f5923f999f04d011e8004485 ""
   "figures/2.png" 1649516603 52841 8e7edd282388eb4c0bc9ffc31dae6a77 ""
   "figures/3.png" 1649516603 580340 f2d1aa90be0220f032d89980b3e06081 ""
   "figures/4.png" 1649516603 236439 ea718a9948c4bfd420642c07020f7790 ""

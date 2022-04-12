@@ -1,4 +1,4 @@
-PWD D:\UOIT\year3\semester2\ActuatorsAndPowerElectronics\Project\powerElectronicsHexopodRobotResearchReport
+PWD d:\UOIT\year3\semester2\ActuatorsAndPowerElectronics\Project\powerElectronicsHexopodRobotResearchReport
 INPUT C:\Users\aidan\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
 INPUT d:\UOIT\year3\semester2\ActuatorsAndPowerElectronics\Project\powerElectronicsHexopodRobotResearchReport\Actuators and Power Electronics Report.tex
 OUTPUT Actuators and Power Electronics Report.log
@@ -422,6 +422,13 @@ INPUT .\figures\14.png
 INPUT .\figures\14.png
 INPUT .\figures\14.png
 INPUT .\figures\14.png
+INPUT .\figures\17.png
+INPUT .\figures\17.png
+INPUT figures\17.png
+INPUT .\figures\17.png
+INPUT .\figures\17.png
+INPUT .\figures\17.png
+INPUT .\figures\17.png
 INPUT .\figures\15.png
 INPUT .\figures\15.png
 INPUT figures\15.png
